@@ -32,6 +32,15 @@
       "amount": 320,
       "note": "Imprumut",
       "date": "2026-04-18T12:46:36.163Z"
+    },
+    {
+      "id": "mo4c0h3bpi7",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 2502,
+      "note": "Familia veche",
+      "date": "2026-04-18T12:47:08.423Z"
     }
   ]
 }

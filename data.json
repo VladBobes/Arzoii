@@ -17,15 +17,6 @@
       "date": "2026-04-18T12:46:18.415Z"
     },
     {
-      "id": "mo4bzs77ong",
-      "type": "direct",
-      "from": "bubelu",
-      "to": "enache",
-      "amount": 320,
-      "note": "Imprumut",
-      "date": "2026-04-18T12:46:36.163Z"
-    },
-    {
       "id": "mo4c0h3bpi7",
       "type": "direct",
       "from": "bubelu",
@@ -48,7 +39,7 @@
       "from": "bobe",
       "to": "bubelu",
       "amount": 100,
-      "note": "MÃÂ¢ncare balena",
+      "note": "MÃÂÃÂ¢ncare balena",
       "date": "2026-04-18T13:21:18.883Z"
     },
     {
@@ -56,7 +47,7 @@
       "type": "group",
       "payer": "enache",
       "amount": 1000,
-      "note": "SeminÈe coca",
+      "note": "SeminÃÂe coca",
       "date": "2026-04-18T14:25:11.976Z"
     },
     {

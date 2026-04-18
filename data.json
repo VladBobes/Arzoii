@@ -13,7 +13,7 @@
       "type": "group",
       "payer": "enache",
       "amount": 4900,
-      "note": "Coca + semințe coca",
+      "note": "Coca + seminÈe coca",
       "date": "2026-04-18T12:46:11.427Z"
     },
     {
@@ -41,6 +41,14 @@
       "amount": 2502,
       "note": "Familia veche",
       "date": "2026-04-18T12:47:08.423Z"
+    },
+    {
+      "id": "mo4d854zad2",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 390,
+      "note": "Ciuperci",
+      "date": "2026-04-18T13:21:05.795Z"
     }
   ]
 }

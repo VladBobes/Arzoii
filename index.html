@@ -672,8 +672,14 @@ async function saveData() {
     showToast('Saved to GitHub ✓', 'ok');
   } catch(e) {
     console.error('saveData error:', e);
-    // Data is already in localStorage; GitHub token may be expired
-    showToast('Saved locally (GitHub token may be expired)', 'err');
+    const msg = e.message || '';
+    let hint = 'GitHub sync failed';
+    if (/\b401\b/.test(msg))      hint = 'GitHub token unauthorized';
+    else if (/\b403\b/.test(msg)) hint = 'GitHub token lacks permission';
+    else if (/\b409\b/.test(msg)) hint = 'Conflict — retry in a moment';
+    else if (/\b422\b/.test(msg)) hint = 'GitHub rejected the update';
+    else if (/fetch|network|failed to fetch/i.test(msg)) hint = 'GitHub unreachable — check connection';
+    showToast(`Saved locally (${hint})`, 'err');
   }
 }
 

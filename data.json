@@ -49,6 +49,15 @@
       "amount": 390,
       "note": "Ciuperci",
       "date": "2026-04-18T13:21:05.795Z"
+    },
+    {
+      "id": "mo4d8f8jv74",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 100,
+      "note": "Mâncare balena",
+      "date": "2026-04-18T13:21:18.883Z"
     }
   ]
 }

@@ -48,7 +48,7 @@
       "from": "bobe",
       "to": "bubelu",
       "amount": 100,
-      "note": "MÃ¢ncare balena",
+      "note": "MÃÂ¢ncare balena",
       "date": "2026-04-18T13:21:18.883Z"
     },
     {
@@ -56,8 +56,16 @@
       "type": "group",
       "payer": "enache",
       "amount": 1000,
-      "note": "Semințe coca",
+      "note": "SeminÈe coca",
       "date": "2026-04-18T14:25:11.976Z"
+    },
+    {
+      "id": "mo4flxd6e4g",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 40,
+      "note": "Taxa praf",
+      "date": "2026-04-18T14:27:48.138Z"
     }
   ]
 }

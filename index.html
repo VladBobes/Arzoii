@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -22,108 +21,104 @@
     --warning: #ffd24d;
   }
 
-- { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-background: var(–bg);
-color: var(–text);
-font-family: ‘DM Mono’, monospace;
-min-height: 100vh;
-overflow-x: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-/* Ambient background */
 body::before {
-content: ‘’;
-position: fixed;
-inset: 0;
-background:
-radial-gradient(ellipse 60% 40% at 20% 10%, rgba(124,106,255,0.08) 0%, transparent 60%),
-radial-gradient(ellipse 50% 50% at 80% 90%, rgba(255,106,155,0.06) 0%, transparent 60%);
-pointer-events: none;
-z-index: 0;
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(124,106,255,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 80% 90%, rgba(255,106,155,0.06) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .app {
-position: relative;
-z-index: 1;
-max-width: 480px;
-margin: 0 auto;
-padding: 0 16px 80px;
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
 }
 
-/* Header */
 .header {
-padding: 28px 0 20px;
-text-align: center;
+  padding: 28px 0 20px;
+  text-align: center;
 }
 
 .logo {
-font-family: ‘Syne’, sans-serif;
-font-size: 2rem;
-font-weight: 800;
-letter-spacing: -0.02em;
-background: linear-gradient(135deg, var(–accent), var(–accent2));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .logo-sub {
-font-size: 0.7rem;
-color: var(–muted);
-letter-spacing: 0.15em;
-text-transform: uppercase;
-margin-top: 2px;
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 2px;
 }
 
-/* Screen transitions */
 .screen {
-animation: fadeUp 0.35s ease both;
+  animation: fadeUp 0.35s ease both;
 }
 
 @keyframes fadeUp {
-from { opacity: 0; transform: translateY(16px); }
-to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* User select screen */
 .user-grid {
-display: grid;
-gap: 12px;
-margin-top: 40px;
+  display: grid;
+  gap: 12px;
+  margin-top: 40px;
 }
 
 .user-card {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 16px;
-padding: 22px 24px;
-cursor: pointer;
-transition: all 0.2s ease;
-display: flex;
-align-items: center;
-gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .user-card:hover {
-border-color: var(–accent);
-background: var(–surface2);
-transform: translateY(-2px);
-box-shadow: 0 8px 32px rgba(124,106,255,0.15);
+  border-color: var(--accent);
+  background: var(--surface2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(124,106,255,0.15);
 }
 
 .user-avatar {
-width: 48px;
-height: 48px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: ‘Syne’, sans-serif;
-font-weight: 800;
-font-size: 1.2rem;
-flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  flex-shrink: 0;
 }
 
 .avatar-0 { background: linear-gradient(135deg, #7c6aff, #b06aff); }
@@ -133,436 +128,422 @@ flex-shrink: 0;
 .user-info { flex: 1; }
 
 .user-name {
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-font-size: 1.1rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .user-hint {
-font-size: 0.72rem;
-color: var(–muted);
-margin-top: 2px;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 2px;
 }
 
 .user-chevron {
-color: var(–muted);
-font-size: 1.2rem;
+  color: var(--muted);
+  font-size: 1.2rem;
 }
 
-/* Welcome bar */
 .welcome-bar {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 14px;
-padding: 14px 18px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin-bottom: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .welcome-left {
-display: flex;
-align-items: center;
-gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .welcome-avatar {
-width: 36px;
-height: 36px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: ‘Syne’, sans-serif;
-font-weight: 800;
-font-size: 0.9rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
 }
 
 .welcome-text { font-size: 0.85rem; }
-.welcome-text strong { font-family: ‘Syne’, sans-serif; font-weight: 700; }
+.welcome-text strong { font-family: 'Syne', sans-serif; font-weight: 700; }
 
 .switch-btn {
-background: none;
-border: 1px solid var(–border);
-color: var(–muted);
-font-family: ‘DM Mono’, monospace;
-font-size: 0.7rem;
-padding: 5px 10px;
-border-radius: 8px;
-cursor: pointer;
-transition: all 0.2s;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.switch-btn:hover { border-color: var(–accent); color: var(–accent); }
+.switch-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* Balances */
 .section-title {
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-font-size: 0.75rem;
-letter-spacing: 0.12em;
-text-transform: uppercase;
-color: var(–muted);
-margin-bottom: 10px;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
 }
 
 .balance-cards {
-display: grid;
-gap: 8px;
-margin-bottom: 20px;
+  display: grid;
+  gap: 8px;
+  margin-bottom: 20px;
 }
 
 .balance-card {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 12px;
-padding: 14px 16px;
-display: flex;
-align-items: center;
-gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .balance-avatar {
-width: 32px;
-height: 32px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: ‘Syne’, sans-serif;
-font-weight: 800;
-font-size: 0.75rem;
-flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 0.75rem;
+  flex-shrink: 0;
 }
 
 .balance-name {
-font-family: ‘Syne’, sans-serif;
-font-weight: 600;
-font-size: 0.85rem;
-flex: 1;
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  flex: 1;
 }
 
 .balance-amount {
-font-size: 0.95rem;
-font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
-.positive { color: var(–success); }
-.negative { color: var(–danger); }
-.zero { color: var(–muted); }
+.positive { color: var(--success); }
+.negative { color: var(--danger); }
+.zero { color: var(--muted); }
 
-/* Settlements */
 .settlements {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 14px;
-padding: 16px;
-margin-bottom: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 20px;
 }
 
 .settlement-item {
-display: flex;
-align-items: center;
-gap: 10px;
-padding: 10px 0;
-font-size: 0.82rem;
-border-bottom: 1px solid var(–border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  font-size: 0.82rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .settlement-item:last-child { border-bottom: none; }
 
 .settlement-arrow {
-color: var(–accent);
-font-size: 1rem;
+  color: var(--accent);
+  font-size: 1rem;
 }
 
 .settlement-amount {
-margin-left: auto;
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-color: var(–warning);
+  margin-left: auto;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  color: var(--warning);
 }
 
 .no-settlements {
-text-align: center;
-padding: 20px;
-color: var(–muted);
-font-size: 0.82rem;
+  text-align: center;
+  padding: 20px;
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .all-clear {
-color: var(–success);
-font-size: 0.9rem;
-font-family: ‘Syne’, sans-serif;
+  color: var(--success);
+  font-size: 0.9rem;
+  font-family: 'Syne', sans-serif;
 }
 
-/* Add payment */
 .add-section {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 16px;
-padding: 18px;
-margin-bottom: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+/* Payment type tabs */
+.type-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.type-tab {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.type-tab.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(124,106,255,0.08);
 }
 
 .input-row {
-display: flex;
-flex-direction: column;
-gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .input-group {
-display: flex;
-flex-direction: column;
-gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .input-label {
-font-size: 0.7rem;
-color: var(–muted);
-letter-spacing: 0.1em;
-text-transform: uppercase;
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .styled-input, .styled-select {
-background: var(–bg);
-border: 1px solid var(–border);
-border-radius: 10px;
-color: var(–text);
-font-family: ‘DM Mono’, monospace;
-font-size: 0.95rem;
-padding: 12px 14px;
-width: 100%;
-transition: border-color 0.2s;
--webkit-appearance: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.95rem;
+  padding: 12px 14px;
+  width: 100%;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
 }
 
 .styled-input:focus, .styled-select:focus {
-outline: none;
-border-color: var(–accent);
+  outline: none;
+  border-color: var(--accent);
 }
 
 .styled-select {
-cursor: pointer;
-background-image: url(“data:image/svg+xml,%3Csvg xmlns=‘http://www.w3.org/2000/svg’ width=‘12’ height=‘8’ viewBox=‘0 0 12 8’%3E%3Cpath fill=’%236b6b88’ d=‘M1 1l5 5 5-5’/%3E%3C/svg%3E”);
-background-repeat: no-repeat;
-background-position: right 14px center;
-padding-right: 36px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b6b88' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
 }
 
 .input-suffix {
-position: relative;
+  position: relative;
 }
 
 .input-suffix::after {
-content: ‘k’;
-position: absolute;
-right: 14px;
-top: 50%;
-transform: translateY(-50%);
-color: var(–accent);
-font-size: 0.9rem;
-pointer-events: none;
+  content: 'k';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  font-size: 0.9rem;
+  pointer-events: none;
 }
 
 .input-suffix .styled-input {
-padding-right: 30px;
+  padding-right: 30px;
 }
 
 .add-btn {
-background: linear-gradient(135deg, var(–accent), #9b6aff);
-border: none;
-border-radius: 10px;
-color: white;
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-font-size: 0.95rem;
-padding: 13px;
-width: 100%;
-cursor: pointer;
-transition: all 0.2s;
-margin-top: 4px;
+  background: linear-gradient(135deg, var(--accent), #9b6aff);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 13px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 4px;
 }
 
 .add-btn:hover { opacity: 0.9; transform: translateY(-1px); }
 .add-btn:active { transform: translateY(0); }
 .add-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
-/* History */
 .history-list {
-display: grid;
-gap: 8px;
+  display: grid;
+  gap: 8px;
 }
 
 .history-item {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 12px;
-padding: 13px 16px;
-display: flex;
-align-items: center;
-gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 13px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.history-item.direct-item {
+  border-color: rgba(255,106,155,0.3);
 }
 
 .history-avatar {
-width: 30px;
-height: 30px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: ‘Syne’, sans-serif;
-font-weight: 800;
-font-size: 0.7rem;
-flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 0.7rem;
+  flex-shrink: 0;
 }
 
 .history-info { flex: 1; }
 
 .history-payer {
-font-family: ‘Syne’, sans-serif;
-font-weight: 600;
-font-size: 0.85rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .history-note {
-font-size: 0.7rem;
-color: var(–muted);
-margin-top: 1px;
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 1px;
 }
 
 .history-amount {
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-color: var(–warning);
-font-size: 0.95rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  color: var(--warning);
+  font-size: 0.95rem;
+}
+
+.direct-badge {
+  font-size: 0.6rem;
+  color: var(--accent2);
+  border: 1px solid rgba(255,106,155,0.4);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-family: 'DM Mono', monospace;
 }
 
 .history-delete {
-background: none;
-border: none;
-color: var(–muted);
-cursor: pointer;
-font-size: 1rem;
-padding: 4px;
-transition: color 0.2s;
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px;
+  transition: color 0.2s;
 }
 
-.history-delete:hover { color: var(–danger); }
+.history-delete:hover { color: var(--danger); }
 
-/* Status */
 .status-toast {
-position: fixed;
-bottom: 24px;
-left: 50%;
-transform: translateX(-50%) translateY(80px);
-background: var(–surface2);
-border: 1px solid var(–border);
-border-radius: 12px;
-padding: 12px 20px;
-font-size: 0.82rem;
-transition: transform 0.3s ease;
-z-index: 100;
-white-space: nowrap;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 0.82rem;
+  transition: transform 0.3s ease;
+  z-index: 100;
+  white-space: nowrap;
 }
 
 .status-toast.show { transform: translateX(-50%) translateY(0); }
-.status-toast.ok { border-color: var(–success); color: var(–success); }
-.status-toast.err { border-color: var(–danger); color: var(–danger); }
+.status-toast.ok { border-color: var(--success); color: var(--success); }
+.status-toast.err { border-color: var(--danger); color: var(--danger); }
 
-/* Loading */
 .loading {
-text-align: center;
-padding: 40px 20px;
-color: var(–muted);
-font-size: 0.82rem;
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .spinner {
-display: inline-block;
-width: 24px;
-height: 24px;
-border: 2px solid var(–border);
-border-top-color: var(–accent);
-border-radius: 50%;
-animation: spin 0.8s linear infinite;
-margin-bottom: 12px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 12px;
 }
 
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* Config screen */
-.config-screen {
-background: var(–surface);
-border: 1px solid var(–border);
-border-radius: 16px;
-padding: 24px;
-margin-top: 40px;
-}
-
-.config-screen h2 {
-font-family: ‘Syne’, sans-serif;
-font-weight: 700;
-font-size: 1.1rem;
-margin-bottom: 8px;
-}
-
-.config-screen p {
-font-size: 0.78rem;
-color: var(–muted);
-line-height: 1.6;
-margin-bottom: 16px;
-}
-
-.config-screen .styled-input {
-margin-bottom: 10px;
-}
-
-.config-screen .add-btn {
-margin-top: 8px;
-}
-
 .select-prompt {
-text-align: center;
-padding: 60px 20px 20px;
+  text-align: center;
+  padding: 60px 20px 20px;
 }
 
 .select-prompt h2 {
-font-family: ‘Syne’, sans-serif;
-font-weight: 800;
-font-size: 1.5rem;
-margin-bottom: 8px;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
 }
 
 .select-prompt p {
-color: var(–muted);
-font-size: 0.82rem;
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .divider {
-height: 1px;
-background: var(–border);
-margin: 20px 0;
-}
-
-/* Note input */
-.note-row {
-display: flex;
-gap: 8px;
-}
-
-.for-badge {
-display: inline-flex;
-align-items: center;
-gap: 4px;
-font-size: 0.7rem;
-color: var(–muted);
-background: var(–bg);
-border: 1px solid var(–border);
-border-radius: 6px;
-padding: 3px 8px;
-margin-top: 4px;
+  height: 1px;
+  background: var(--border);
+  margin: 20px 0;
 }
 </style>
 
@@ -581,17 +562,13 @@ margin-top: 4px;
 <div class="status-toast" id="toast"></div>
 
 <script>
-// ============================================================
-// CONFIG — fill these in after creating your GitHub repo
-// ============================================================
 const GITHUB_CONFIG = {
-  owner: 'VladBobes',   // ← your GitHub username
-  repo: 'arzoii',          // ← the repo name (same repo as the app)
+  owner: 'VladBobes',
+  repo: 'arzoii',
   branch: 'main',
-  token: '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',   // ← your PAT with Contents: read+write on this repo
+  token: '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',
   dataFile: 'data.json'
 };
-// ============================================================
 
 const USERS = [
   { id: 'bobe',   name: 'Bobe',   idx: 0 },
@@ -602,13 +579,14 @@ const USERS = [
 const AVATARS = ['avatar-0', 'avatar-1', 'avatar-2'];
 
 let state = {
-  payments: [],   // { id, payer, amount (in k), note, date }
-  sha: null       // current file SHA for GitHub updates
+  payments: [],
+  sha: null
 };
 
 let currentUser = null;
+let addType = 'group'; // 'group' | 'direct'
 
-// ── GitHub API helpers ──────────────────────────────────────
+// ── GitHub API ──────────────────────────────────────────────
 
 const GH_URL = () =>
   `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.dataFile}`;
@@ -628,7 +606,6 @@ async function loadData() {
   try {
     const r = await fetch(GH_URL(), { headers: GH_HEADERS() });
     if (r.status === 404) {
-      // File doesn't exist yet — that's fine, start fresh
       state.payments = [];
       state.sha = null;
       return;
@@ -642,12 +619,10 @@ async function loadData() {
     const decoded = atob(file.content.replace(/\n/g, ''));
     const parsed = JSON.parse(decoded);
     state.payments = parsed.payments || [];
-    // Sync to localStorage as backup
     localStorage.setItem('arzoii_data', JSON.stringify(state.payments));
   } catch(e) {
     console.error('loadData error:', e);
-    showToast('GitHub error: ' + e.message, 'err');
-    // Fall back to localStorage
+    showToast('GitHub unavailable — using local cache', 'err');
     const raw = localStorage.getItem('arzoii_data');
     state.payments = raw ? JSON.parse(raw) : [];
   }
@@ -655,35 +630,36 @@ async function loadData() {
 
 async function saveData() {
   const json = JSON.stringify({ payments: state.payments }, null, 2);
-  // Always save to localStorage as backup
+  // Always persist to localStorage first so data is never lost
   localStorage.setItem('arzoii_data', JSON.stringify(state.payments));
 
   if (GITHUB_CONFIG.token === 'GITHUB_TOKEN') return;
 
   try {
-    // Always re-fetch the latest SHA before writing to avoid conflicts
+    // Re-fetch SHA before writing to avoid 409 conflicts
     const check = await fetch(GH_URL(), { headers: GH_HEADERS() });
     if (check.ok) {
       const existing = await check.json();
       state.sha = existing.sha;
     } else if (check.status === 404) {
-      state.sha = null; // File doesn't exist yet, we'll create it
+      state.sha = null;
     } else {
-      throw new Error(`Pre-save check failed: ${check.status}`);
+      const body = await check.json().catch(() => ({}));
+      throw new Error(`Pre-save ${check.status}: ${body.message || ''}`);
     }
 
     const encoded = btoa(unescape(encodeURIComponent(json)));
-    const body = {
+    const payload = {
       message: 'update arzoii data',
       content: encoded,
       branch: GITHUB_CONFIG.branch,
     };
-    if (state.sha) body.sha = state.sha;
+    if (state.sha) payload.sha = state.sha;
 
     const r = await fetch(GH_URL(), {
       method: 'PUT',
       headers: GH_HEADERS(),
-      body: JSON.stringify(body),
+      body: JSON.stringify(payload),
     });
 
     if (!r.ok) {
@@ -696,18 +672,23 @@ async function saveData() {
     showToast('Saved to GitHub ✓', 'ok');
   } catch(e) {
     console.error('saveData error:', e);
-    showToast('GitHub save failed: ' + e.message, 'err');
+    // Data is already in localStorage; GitHub token may be expired
+    showToast('Saved locally (GitHub token may be expired)', 'err');
   }
 }
 
-// ── Math: balance & settlements ─────────────────────────────
+// ── Balances ────────────────────────────────────────────────
 
 function computeBalances() {
   const totals = { bobe: 0, bubelu: 0, enache: 0 };
-  state.payments.forEach(p => { totals[p.payer] += p.amount; });
 
-  const total = totals.bobe + totals.bubelu + totals.enache;
-  const share = total / 3;
+  // Group expenses split equally among all 3
+  state.payments.filter(p => !p.type || p.type === 'group').forEach(p => {
+    totals[p.payer] += p.amount;
+  });
+
+  const groupTotal = totals.bobe + totals.bubelu + totals.enache;
+  const share = groupTotal / 3;
 
   const net = {
     bobe:   totals.bobe   - share,
@@ -715,13 +696,18 @@ function computeBalances() {
     enache: totals.enache - share,
   };
 
+  // Direct (1:1) debts adjust net balance directly
+  state.payments.filter(p => p.type === 'direct').forEach(p => {
+    net[p.to]   += p.amount;
+    net[p.from] -= p.amount;
+  });
+
   return { totals, share, net };
 }
 
 function computeSettlements() {
   const { net } = computeBalances();
 
-  // Copy to mutable arrays
   let creditors = USERS.map(u => ({ id: u.id, bal: net[u.id] })).filter(x => x.bal > 0.001).sort((a,b) => b.bal - a.bal);
   let debtors   = USERS.map(u => ({ id: u.id, bal: -net[u.id] })).filter(x => x.bal > 0.001).sort((a,b) => b.bal - a.bal);
 
@@ -744,9 +730,8 @@ function computeSettlements() {
 function userName(id) { return USERS.find(u => u.id === id)?.name || id; }
 function userIdx(id)  { return USERS.find(u => u.id === id)?.idx ?? 0; }
 
-function avatarHTML(id, size = 'balance-avatar') {
-  const n = userName(id);
-  return `<div class="${size} ${AVATARS[userIdx(id)]}">${n[0]}</div>`;
+function avatarHTML(id, cls = 'balance-avatar') {
+  return `<div class="${cls} ${AVATARS[userIdx(id)]}">${userName(id)[0]}</div>`;
 }
 
 function fmtK(k) {
@@ -776,12 +761,68 @@ function renderUserSelect() {
     </div>`;
 }
 
-function renderMain() {
-  const { net, totals } = computeBalances();
-  const settlements = computeSettlements();
+function renderAddSection() {
+  const isGroup = addType === 'group';
+  const defaultTo = USERS.find(u => u.id !== currentUser)?.id;
 
-  const welcomeName = userName(currentUser);
-  const myNet = net[currentUser];
+  const groupForm = `
+    <div class="input-group">
+      <div class="input-label">Paid by</div>
+      <select class="styled-select" id="payer-select">
+        ${USERS.map(u => `<option value="${u.id}" ${u.id === currentUser ? 'selected' : ''}>${u.name}</option>`).join('')}
+      </select>
+    </div>
+    <div class="input-group">
+      <div class="input-label">Amount</div>
+      <div class="input-suffix">
+        <input class="styled-input" type="number" id="amount-input" placeholder="e.g. 90" min="0.1" step="0.1">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-label">Note (optional)</div>
+      <input class="styled-input" type="text" id="note-input" placeholder="e.g. groceries">
+    </div>`;
+
+  const directForm = `
+    <div class="input-group">
+      <div class="input-label">Who owes</div>
+      <select class="styled-select" id="from-select">
+        ${USERS.map(u => `<option value="${u.id}" ${u.id === currentUser ? 'selected' : ''}>${u.name}</option>`).join('')}
+      </select>
+    </div>
+    <div class="input-group">
+      <div class="input-label">Owes to</div>
+      <select class="styled-select" id="to-select">
+        ${USERS.map(u => `<option value="${u.id}" ${u.id === defaultTo ? 'selected' : ''}>${u.name}</option>`).join('')}
+      </select>
+    </div>
+    <div class="input-group">
+      <div class="input-label">Amount</div>
+      <div class="input-suffix">
+        <input class="styled-input" type="number" id="amount-input" placeholder="e.g. 50" min="0.1" step="0.1">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-label">Note (optional)</div>
+      <input class="styled-input" type="text" id="note-input" placeholder="e.g. borrowed for lunch">
+    </div>`;
+
+  return `
+    <div class="add-section">
+      <div class="type-tabs">
+        <button class="type-tab ${isGroup ? 'active' : ''}" onclick="setAddType('group')">Group (3-way split)</button>
+        <button class="type-tab ${!isGroup ? 'active' : ''}" onclick="setAddType('direct')">Personal (1:1 debt)</button>
+      </div>
+      <div class="input-row">
+        ${isGroup ? groupForm : directForm}
+        <button class="add-btn" id="add-btn" onclick="addPayment()">+ Add ${isGroup ? 'Payment' : 'Debt'}</button>
+      </div>
+    </div>`;
+}
+
+function renderMain() {
+  const { net } = computeBalances();
+  const settlements = computeSettlements();
 
   const balanceRows = USERS.map(u => {
     const val = net[u.id];
@@ -796,36 +837,51 @@ function renderMain() {
   }).join('');
 
   const settlementHTML = settlements.length === 0
-    ? `<div class="no-settlements"><div class="all-clear">✓ All settled up!</div></div>`
+    ? `<div class="no-settlements"><div class="all-clear">&#x2713; All settled up!</div></div>`
     : settlements.map(s => `
         <div class="settlement-item">
           ${avatarHTML(s.from, `history-avatar ${AVATARS[userIdx(s.from)]}`)}
           <span style="font-size:0.82rem">${userName(s.from)}</span>
-          <span class="settlement-arrow">→</span>
+          <span class="settlement-arrow">&#8594;</span>
           ${avatarHTML(s.to, `history-avatar ${AVATARS[userIdx(s.to)]}`)}
           <span style="font-size:0.82rem">${userName(s.to)}</span>
           <span class="settlement-amount">${fmtK(s.amount)}</span>
         </div>`).join('');
 
-  const historyHTML = [...state.payments].reverse().slice(0, 20).map(p => `
-    <div class="history-item">
-      ${avatarHTML(p.payer, `history-avatar ${AVATARS[userIdx(p.payer)]}`)}
-      <div class="history-info">
-        <div class="history-payer">${userName(p.payer)} paid</div>
-        <div class="history-note">${p.note || formatDate(p.date)}</div>
-      </div>
-      <div class="history-amount">${fmtK(p.amount)}</div>
-      <button class="history-delete" onclick="deletePayment('${p.id}')" title="Delete">✕</button>
-    </div>`).join('') || `<div class="no-settlements">No payments yet</div>`;
-
-  const otherUsers = USERS.filter(u => u.id !== currentUser);
+  const historyHTML = [...state.payments].reverse().slice(0, 20).map(p => {
+    if (p.type === 'direct') {
+      return `
+        <div class="history-item direct-item">
+          ${avatarHTML(p.from, `history-avatar ${AVATARS[userIdx(p.from)]}`)}
+          <div class="history-info">
+            <div class="history-payer">
+              ${userName(p.from)} &#8594; ${userName(p.to)}
+              <span class="direct-badge">1:1</span>
+            </div>
+            <div class="history-note">${p.note || formatDate(p.date)}</div>
+          </div>
+          <div class="history-amount">${fmtK(p.amount)}</div>
+          <button class="history-delete" onclick="deletePayment('${p.id}')" title="Delete">&#x2715;</button>
+        </div>`;
+    }
+    return `
+      <div class="history-item">
+        ${avatarHTML(p.payer, `history-avatar ${AVATARS[userIdx(p.payer)]}`)}
+        <div class="history-info">
+          <div class="history-payer">${userName(p.payer)} paid</div>
+          <div class="history-note">${p.note || formatDate(p.date)}</div>
+        </div>
+        <div class="history-amount">${fmtK(p.amount)}</div>
+        <button class="history-delete" onclick="deletePayment('${p.id}')" title="Delete">&#x2715;</button>
+      </div>`;
+  }).join('') || `<div class="no-settlements">No payments yet</div>`;
 
   return `
     <div class="screen">
       <div class="welcome-bar">
         <div class="welcome-left">
           ${avatarHTML(currentUser, `welcome-avatar ${AVATARS[userIdx(currentUser)]}`)}
-          <div class="welcome-text">Hey, <strong>${welcomeName}</strong> 👋</div>
+          <div class="welcome-text">Hey, <strong>${userName(currentUser)}</strong></div>
         </div>
         <button class="switch-btn" onclick="switchUser()">Switch</button>
       </div>
@@ -837,27 +893,7 @@ function renderMain() {
       <div class="settlements">${settlementHTML}</div>
 
       <div class="section-title">Add Payment</div>
-      <div class="add-section">
-        <div class="input-row">
-          <div class="input-group">
-            <div class="input-label">Paid by</div>
-            <select class="styled-select" id="payer-select">
-              ${USERS.map(u => `<option value="${u.id}" ${u.id === currentUser ? 'selected' : ''}>${u.name}</option>`).join('')}
-            </select>
-          </div>
-          <div class="input-group">
-            <div class="input-label">Amount</div>
-            <div class="input-suffix">
-              <input class="styled-input" type="number" id="amount-input" placeholder="e.g. 90" min="0.1" step="0.1">
-            </div>
-          </div>
-          <div class="input-group">
-            <div class="input-label">Note (optional)</div>
-            <input class="styled-input" type="text" id="note-input" placeholder="e.g. groceries">
-          </div>
-          <button class="add-btn" id="add-btn" onclick="addPayment()">+ Add Payment</button>
-        </div>
-      </div>
+      ${renderAddSection()}
 
       <div class="section-title">History</div>
       <div class="history-list">${historyHTML}</div>
@@ -866,20 +902,15 @@ function renderMain() {
 
 function formatDate(iso) {
   if (!iso) return '';
-  const d = new Date(iso);
-  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  return new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
 }
 
 function render() {
-  const el = document.getElementById('main-content');
-  if (!currentUser) {
-    el.innerHTML = renderUserSelect();
-  } else {
-    el.innerHTML = renderMain();
-  }
+  document.getElementById('main-content').innerHTML =
+    currentUser ? renderMain() : renderUserSelect();
 }
 
-// ── Actions ─────────────────────────────────────────────────
+// ── Actions ──────────────────────────────────────────────────
 
 function selectUser(id) {
   currentUser = id;
@@ -893,12 +924,16 @@ function switchUser() {
   render();
 }
 
+function setAddType(type) {
+  addType = type;
+  render();
+}
+
 async function addPayment() {
-  const payer = document.getElementById('payer-select').value;
   const amtRaw = document.getElementById('amount-input').value;
   const note = document.getElementById('note-input').value.trim();
-
   const amount = parseFloat(amtRaw);
+
   if (!amount || amount <= 0) {
     showToast('Enter a valid amount', 'err');
     return;
@@ -908,17 +943,40 @@ async function addPayment() {
   btn.disabled = true;
   btn.textContent = 'Saving…';
 
-  const payment = {
-    id: Date.now().toString(36) + Math.random().toString(36).slice(2,5),
-    payer,
-    amount,
-    note,
-    date: new Date().toISOString()
-  };
+  let payment;
+
+  if (addType === 'direct') {
+    const from = document.getElementById('from-select').value;
+    const to = document.getElementById('to-select').value;
+    if (from === to) {
+      showToast('Select two different people', 'err');
+      btn.disabled = false;
+      btn.textContent = '+ Add Debt';
+      return;
+    }
+    payment = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
+      type: 'direct',
+      from,
+      to,
+      amount,
+      note,
+      date: new Date().toISOString(),
+    };
+  } else {
+    const payer = document.getElementById('payer-select').value;
+    payment = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
+      type: 'group',
+      payer,
+      amount,
+      note,
+      date: new Date().toISOString(),
+    };
+  }
 
   state.payments.push(payment);
   await saveData();
-  showToast('Payment added!', 'ok');
   render();
 }
 
@@ -937,10 +995,11 @@ function showToast(msg, type = 'ok') {
   setTimeout(() => { t.className = 'status-toast'; }, 2800);
 }
 
-// ── Init ────────────────────────────────────────────────────
+// ── Init ─────────────────────────────────────────────────────
 
 async function init() {
-  document.getElementById('main-content').innerHTML = `<div class="loading"><div class="spinner"></div><br>Loading…</div>`;
+  document.getElementById('main-content').innerHTML =
+    `<div class="loading"><div class="spinner"></div><br>Loading…</div>`;
   await loadData();
   const saved = localStorage.getItem('arzoii_user');
   if (saved && USERS.find(u => u.id === saved)) currentUser = saved;

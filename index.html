@@ -545,14 +545,110 @@ body::before {
   background: var(--border);
   margin: 20px 0;
 }
+
+.settings-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 10px;
+  line-height: 1;
+  transition: all 0.2s;
+}
+.settings-btn:hover { color: var(--text); border-color: var(--accent); }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.modal-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 340px;
+}
+.modal-box h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.modal-box p { color: var(--muted); font-size: 0.78rem; margin-bottom: 16px; line-height: 1.5; }
+.modal-box input {
+  width: 100%;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.78rem;
+  margin-bottom: 12px;
+  outline: none;
+}
+.modal-box input:focus { border-color: var(--accent); }
+.modal-actions { display: flex; gap: 8px; }
+.modal-save-btn {
+  flex: 2;
+  background: linear-gradient(135deg, var(--accent), #9b6aff);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.modal-save-btn:hover { opacity: 0.88; }
+.modal-clear-btn {
+  flex: 1;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.82rem;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.modal-clear-btn:hover { color: var(--danger); border-color: var(--danger); }
 </style>
 
 </head>
 <body>
 <div class="app" id="app">
-  <div class="header">
+  <div class="header" style="position:relative">
     <div class="logo">Arzoii</div>
     <div class="logo-sub">shared expenses</div>
+    <button class="settings-btn" onclick="openSettings()" title="GitHub token settings">⚙</button>
+  </div>
+  <div id="settings-modal" style="display:none" class="modal-overlay" onclick="if(event.target===this)closeSettings()">
+    <div class="modal-box">
+      <h3>GitHub Token</h3>
+      <p>Enter a GitHub PAT with <strong>Contents: Read & Write</strong> on <em>VladBobes/arzoii</em> to sync data. The token is stored only in your browser.</p>
+      <input id="token-input" type="password" placeholder="github_pat_…" autocomplete="off" />
+      <div class="modal-actions">
+        <button class="modal-clear-btn" onclick="clearToken()">Clear</button>
+        <button class="modal-save-btn" onclick="saveToken()">Save token</button>
+      </div>
+    </div>
   </div>
   <div id="main-content">
     <div class="loading"><div class="spinner"></div><br>Loading...</div>
@@ -566,7 +662,6 @@ const GITHUB_CONFIG = {
   owner: 'VladBobes',
   repo: 'arzoii',
   branch: 'main',
-  token: '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',
   dataFile: 'data.json'
 };
 
@@ -592,17 +687,17 @@ const GH_URL = () =>
   `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.dataFile}`;
 
 const GH_HEADERS = () => ({
-  'Authorization': `token ${GITHUB_CONFIG.token}`,
+  'Accept': 'application/vnd.github+json',
+  'Content-Type': 'application/json',
+});
+
+const GH_AUTH_HEADERS = () => ({
+  'Authorization': `token ${localStorage.getItem('arzoii_token')}`,
   'Accept': 'application/vnd.github+json',
   'Content-Type': 'application/json',
 });
 
 async function loadData() {
-  if (GITHUB_CONFIG.token === 'GITHUB_TOKEN') {
-    const raw = localStorage.getItem('arzoii_data');
-    state.payments = raw ? JSON.parse(raw) : [];
-    return;
-  }
   try {
     const r = await fetch(GH_URL(), { headers: GH_HEADERS() });
     if (r.status === 404) {
@@ -630,14 +725,15 @@ async function loadData() {
 
 async function saveData() {
   const json = JSON.stringify({ payments: state.payments }, null, 2);
-  // Always persist to localStorage first so data is never lost
   localStorage.setItem('arzoii_data', JSON.stringify(state.payments));
 
-  if (GITHUB_CONFIG.token === 'GITHUB_TOKEN') return;
+  if (!localStorage.getItem('arzoii_token')) {
+    showToast('Saved locally — set a GitHub token in ⚙ to sync', 'err');
+    return;
+  }
 
   try {
-    // Re-fetch SHA before writing to avoid 409 conflicts
-    const check = await fetch(GH_URL(), { headers: GH_HEADERS() });
+    const check = await fetch(GH_URL(), { headers: GH_AUTH_HEADERS() });
     if (check.ok) {
       const existing = await check.json();
       state.sha = existing.sha;
@@ -658,7 +754,7 @@ async function saveData() {
 
     const r = await fetch(GH_URL(), {
       method: 'PUT',
-      headers: GH_HEADERS(),
+      headers: GH_AUTH_HEADERS(),
       body: JSON.stringify(payload),
     });
 
@@ -999,6 +1095,37 @@ function showToast(msg, type = 'ok') {
   t.textContent = msg;
   t.className = `status-toast ${type} show`;
   setTimeout(() => { t.className = 'status-toast'; }, 2800);
+}
+
+// ── Settings ─────────────────────────────────────────────────
+
+function openSettings() {
+  const t = localStorage.getItem('arzoii_token') || '';
+  document.getElementById('token-input').value = t;
+  document.getElementById('settings-modal').style.display = 'flex';
+}
+
+function closeSettings() {
+  document.getElementById('settings-modal').style.display = 'none';
+}
+
+function saveToken() {
+  const v = document.getElementById('token-input').value.trim();
+  if (v) {
+    localStorage.setItem('arzoii_token', v);
+    showToast('Token saved', 'ok');
+  } else {
+    localStorage.removeItem('arzoii_token');
+    showToast('Token cleared', 'ok');
+  }
+  closeSettings();
+}
+
+function clearToken() {
+  localStorage.removeItem('arzoii_token');
+  document.getElementById('token-input').value = '';
+  showToast('Token cleared', 'ok');
+  closeSettings();
 }
 
 // ── Init ─────────────────────────────────────────────────────

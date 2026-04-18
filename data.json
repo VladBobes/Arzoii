@@ -9,14 +9,6 @@
       "date": "2026-04-18T12:45:59.169Z"
     },
     {
-      "id": "mo4bz943trn",
-      "type": "group",
-      "payer": "enache",
-      "amount": 4900,
-      "note": "Coca + seminÈe coca",
-      "date": "2026-04-18T12:46:11.427Z"
-    },
-    {
       "id": "mo4bzei74a7",
       "type": "group",
       "payer": "bubelu",
@@ -56,7 +48,7 @@
       "from": "bobe",
       "to": "bubelu",
       "amount": 100,
-      "note": "Mâncare balena",
+      "note": "MÃ¢ncare balena",
       "date": "2026-04-18T13:21:18.883Z"
     }
   ]

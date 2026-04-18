@@ -23,6 +23,15 @@
       "amount": 40,
       "note": "Topi",
       "date": "2026-04-18T12:46:18.415Z"
+    },
+    {
+      "id": "mo4bzs77ong",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 320,
+      "note": "Imprumut",
+      "date": "2026-04-18T12:46:36.163Z"
     }
   ]
 }

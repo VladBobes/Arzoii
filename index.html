@@ -276,6 +276,20 @@ body::before {
   color: var(--warning);
 }
 
+.settle-btn {
+  margin-left: 10px;
+  background: none;
+  border: 1px solid var(--success);
+  color: var(--success);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  font-family: 'Syne', sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+.settle-btn:hover { background: var(--success); color: #111; }
+
 .no-settlements {
   text-align: center;
   padding: 20px;
@@ -999,6 +1013,7 @@ function renderMain() {
           ${avatarHTML(s.to, `history-avatar ${AVATARS[userIdx(s.to)]}`)}
           <span style="font-size:0.82rem">${userName(s.to)}</span>
           <span class="settlement-amount">${fmtK(s.amount)}</span>
+          <button class="settle-btn" onclick="settleDebt('${s.from}','${s.to}',${s.amount})">Settle</button>
         </div>`).join('');
 
   const historyHTML = [...state.payments].reverse().slice(0, 20).map(p => {
@@ -1156,6 +1171,23 @@ async function addPayment() {
 
   state.payments.push(payment);
   await saveData();
+  render();
+}
+
+async function settleDebt(from, to, amount) {
+  if (!confirm(`Record that ${userName(from)} paid ${fmtK(amount)} to ${userName(to)}?`)) return;
+  const payment = {
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
+    type: 'direct',
+    from,
+    to,
+    amount,
+    note: 'Settlement',
+    date: new Date().toISOString(),
+  };
+  state.payments.push(payment);
+  await saveData();
+  showToast('Settled!', 'ok');
   render();
 }
 

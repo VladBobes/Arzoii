@@ -15,6 +15,14 @@
       "amount": 4900,
       "note": "Coca + semințe coca",
       "date": "2026-04-18T12:46:11.427Z"
+    },
+    {
+      "id": "mo4bzei74a7",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 40,
+      "note": "Topi",
+      "date": "2026-04-18T12:46:18.415Z"
     }
   ]
 }

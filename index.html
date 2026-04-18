@@ -699,7 +699,8 @@ const GH_AUTH_HEADERS = () => ({
 
 async function loadData() {
   try {
-    const r = await fetch(GH_URL(), { headers: GH_HEADERS() });
+    const token = localStorage.getItem('arzoii_token');
+    const r = await fetch(GH_URL(), { headers: token ? GH_AUTH_HEADERS() : GH_HEADERS() });
     if (r.status === 404) {
       state.payments = [];
       state.sha = null;

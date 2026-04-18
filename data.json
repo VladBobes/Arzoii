@@ -50,6 +50,14 @@
       "amount": 100,
       "note": "MÃ¢ncare balena",
       "date": "2026-04-18T13:21:18.883Z"
+    },
+    {
+      "id": "mo4fikvc1qf",
+      "type": "group",
+      "payer": "enache",
+      "amount": 1000,
+      "note": "Semințe coca",
+      "date": "2026-04-18T14:25:11.976Z"
     }
   ]
 }

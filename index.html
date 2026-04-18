@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arzoii</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3d;
+    --accent: #7c6aff;
+    --accent2: #ff6a9b;
+    --accent3: #6affd4;
+    --text: #e8e8f0;
+    --muted: #6b6b88;
+    --danger: #ff4d6d;
+    --success: #4dffb4;
+    --warning: #ffd24d;
+  }
+
+- { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+background: var(–bg);
+color: var(–text);
+font-family: ‘DM Mono’, monospace;
+min-height: 100vh;
+overflow-x: hidden;
+}
+
+/* Ambient background */
+body::before {
+content: ‘’;
+position: fixed;
+inset: 0;
+background:
+radial-gradient(ellipse 60% 40% at 20% 10%, rgba(124,106,255,0.08) 0%, transparent 60%),
+radial-gradient(ellipse 50% 50% at 80% 90%, rgba(255,106,155,0.06) 0%, transparent 60%);
+pointer-events: none;
+z-index: 0;
+}
+
+.app {
+position: relative;
+z-index: 1;
+max-width: 480px;
+margin: 0 auto;
+padding: 0 16px 80px;
+}
+
+/* Header */
+.header {
+padding: 28px 0 20px;
+text-align: center;
+}
+
+.logo {
+font-family: ‘Syne’, sans-serif;
+font-size: 2rem;
+font-weight: 800;
+letter-spacing: -0.02em;
+background: linear-gradient(135deg, var(–accent), var(–accent2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.logo-sub {
+font-size: 0.7rem;
+color: var(–muted);
+letter-spacing: 0.15em;
+text-transform: uppercase;
+margin-top: 2px;
+}
+
+/* Screen transitions */
+.screen {
+animation: fadeUp 0.35s ease both;
+}
+
+@keyframes fadeUp {
+from { opacity: 0; transform: translateY(16px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+/* User select screen */
+.user-grid {
+display: grid;
+gap: 12px;
+margin-top: 40px;
+}
+
+.user-card {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 16px;
+padding: 22px 24px;
+cursor: pointer;
+transition: all 0.2s ease;
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.user-card:hover {
+border-color: var(–accent);
+background: var(–surface2);
+transform: translateY(-2px);
+box-shadow: 0 8px 32px rgba(124,106,255,0.15);
+}
+
+.user-avatar {
+width: 48px;
+height: 48px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: ‘Syne’, sans-serif;
+font-weight: 800;
+font-size: 1.2rem;
+flex-shrink: 0;
+}
+
+.avatar-0 { background: linear-gradient(135deg, #7c6aff, #b06aff); }
+.avatar-1 { background: linear-gradient(135deg, #ff6a9b, #ff9b6a); }
+.avatar-2 { background: linear-gradient(135deg, #6affd4, #6ab8ff); color: #0a0a0f; }
+
+.user-info { flex: 1; }
+
+.user-name {
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+font-size: 1.1rem;
+}
+
+.user-hint {
+font-size: 0.72rem;
+color: var(–muted);
+margin-top: 2px;
+}
+
+.user-chevron {
+color: var(–muted);
+font-size: 1.2rem;
+}
+
+/* Welcome bar */
+.welcome-bar {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 14px;
+padding: 14px 18px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.welcome-left {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.welcome-avatar {
+width: 36px;
+height: 36px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: ‘Syne’, sans-serif;
+font-weight: 800;
+font-size: 0.9rem;
+}
+
+.welcome-text { font-size: 0.85rem; }
+.welcome-text strong { font-family: ‘Syne’, sans-serif; font-weight: 700; }
+
+.switch-btn {
+background: none;
+border: 1px solid var(–border);
+color: var(–muted);
+font-family: ‘DM Mono’, monospace;
+font-size: 0.7rem;
+padding: 5px 10px;
+border-radius: 8px;
+cursor: pointer;
+transition: all 0.2s;
+}
+
+.switch-btn:hover { border-color: var(–accent); color: var(–accent); }
+
+/* Balances */
+.section-title {
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+font-size: 0.75rem;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: var(–muted);
+margin-bottom: 10px;
+}
+
+.balance-cards {
+display: grid;
+gap: 8px;
+margin-bottom: 20px;
+}
+
+.balance-card {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 12px;
+padding: 14px 16px;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.balance-avatar {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: ‘Syne’, sans-serif;
+font-weight: 800;
+font-size: 0.75rem;
+flex-shrink: 0;
+}
+
+.balance-name {
+font-family: ‘Syne’, sans-serif;
+font-weight: 600;
+font-size: 0.85rem;
+flex: 1;
+}
+
+.balance-amount {
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+.positive { color: var(–success); }
+.negative { color: var(–danger); }
+.zero { color: var(–muted); }
+
+/* Settlements */
+.settlements {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 14px;
+padding: 16px;
+margin-bottom: 20px;
+}
+
+.settlement-item {
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 10px 0;
+font-size: 0.82rem;
+border-bottom: 1px solid var(–border);
+}
+
+.settlement-item:last-child { border-bottom: none; }
+
+.settlement-arrow {
+color: var(–accent);
+font-size: 1rem;
+}
+
+.settlement-amount {
+margin-left: auto;
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+color: var(–warning);
+}
+
+.no-settlements {
+text-align: center;
+padding: 20px;
+color: var(–muted);
+font-size: 0.82rem;
+}
+
+.all-clear {
+color: var(–success);
+font-size: 0.9rem;
+font-family: ‘Syne’, sans-serif;
+}
+
+/* Add payment */
+.add-section {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 16px;
+padding: 18px;
+margin-bottom: 20px;
+}
+
+.input-row {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.input-group {
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+
+.input-label {
+font-size: 0.7rem;
+color: var(–muted);
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.styled-input, .styled-select {
+background: var(–bg);
+border: 1px solid var(–border);
+border-radius: 10px;
+color: var(–text);
+font-family: ‘DM Mono’, monospace;
+font-size: 0.95rem;
+padding: 12px 14px;
+width: 100%;
+transition: border-color 0.2s;
+-webkit-appearance: none;
+}
+
+.styled-input:focus, .styled-select:focus {
+outline: none;
+border-color: var(–accent);
+}
+
+.styled-select {
+cursor: pointer;
+background-image: url(“data:image/svg+xml,%3Csvg xmlns=‘http://www.w3.org/2000/svg’ width=‘12’ height=‘8’ viewBox=‘0 0 12 8’%3E%3Cpath fill=’%236b6b88’ d=‘M1 1l5 5 5-5’/%3E%3C/svg%3E”);
+background-repeat: no-repeat;
+background-position: right 14px center;
+padding-right: 36px;
+}
+
+.input-suffix {
+position: relative;
+}
+
+.input-suffix::after {
+content: ‘k’;
+position: absolute;
+right: 14px;
+top: 50%;
+transform: translateY(-50%);
+color: var(–accent);
+font-size: 0.9rem;
+pointer-events: none;
+}
+
+.input-suffix .styled-input {
+padding-right: 30px;
+}
+
+.add-btn {
+background: linear-gradient(135deg, var(–accent), #9b6aff);
+border: none;
+border-radius: 10px;
+color: white;
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+font-size: 0.95rem;
+padding: 13px;
+width: 100%;
+cursor: pointer;
+transition: all 0.2s;
+margin-top: 4px;
+}
+
+.add-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+.add-btn:active { transform: translateY(0); }
+.add-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+/* History */
+.history-list {
+display: grid;
+gap: 8px;
+}
+
+.history-item {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 12px;
+padding: 13px 16px;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.history-avatar {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: ‘Syne’, sans-serif;
+font-weight: 800;
+font-size: 0.7rem;
+flex-shrink: 0;
+}
+
+.history-info { flex: 1; }
+
+.history-payer {
+font-family: ‘Syne’, sans-serif;
+font-weight: 600;
+font-size: 0.85rem;
+}
+
+.history-note {
+font-size: 0.7rem;
+color: var(–muted);
+margin-top: 1px;
+}
+
+.history-amount {
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+color: var(–warning);
+font-size: 0.95rem;
+}
+
+.history-delete {
+background: none;
+border: none;
+color: var(–muted);
+cursor: pointer;
+font-size: 1rem;
+padding: 4px;
+transition: color 0.2s;
+}
+
+.history-delete:hover { color: var(–danger); }
+
+/* Status */
+.status-toast {
+position: fixed;
+bottom: 24px;
+left: 50%;
+transform: translateX(-50%) translateY(80px);
+background: var(–surface2);
+border: 1px solid var(–border);
+border-radius: 12px;
+padding: 12px 20px;
+font-size: 0.82rem;
+transition: transform 0.3s ease;
+z-index: 100;
+white-space: nowrap;
+}
+
+.status-toast.show { transform: translateX(-50%) translateY(0); }
+.status-toast.ok { border-color: var(–success); color: var(–success); }
+.status-toast.err { border-color: var(–danger); color: var(–danger); }
+
+/* Loading */
+.loading {
+text-align: center;
+padding: 40px 20px;
+color: var(–muted);
+font-size: 0.82rem;
+}
+
+.spinner {
+display: inline-block;
+width: 24px;
+height: 24px;
+border: 2px solid var(–border);
+border-top-color: var(–accent);
+border-radius: 50%;
+animation: spin 0.8s linear infinite;
+margin-bottom: 12px;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Config screen */
+.config-screen {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 16px;
+padding: 24px;
+margin-top: 40px;
+}
+
+.config-screen h2 {
+font-family: ‘Syne’, sans-serif;
+font-weight: 700;
+font-size: 1.1rem;
+margin-bottom: 8px;
+}
+
+.config-screen p {
+font-size: 0.78rem;
+color: var(–muted);
+line-height: 1.6;
+margin-bottom: 16px;
+}
+
+.config-screen .styled-input {
+margin-bottom: 10px;
+}
+
+.config-screen .add-btn {
+margin-top: 8px;
+}
+
+.select-prompt {
+text-align: center;
+padding: 60px 20px 20px;
+}
+
+.select-prompt h2 {
+font-family: ‘Syne’, sans-serif;
+font-weight: 800;
+font-size: 1.5rem;
+margin-bottom: 8px;
+}
+
+.select-prompt p {
+color: var(–muted);
+font-size: 0.82rem;
+}
+
+.divider {
+height: 1px;
+background: var(–border);
+margin: 20px 0;
+}
+
+/* Note input */
+.note-row {
+display: flex;
+gap: 8px;
+}
+
+.for-badge {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+font-size: 0.7rem;
+color: var(–muted);
+background: var(–bg);
+border: 1px solid var(–border);
+border-radius: 6px;
+padding: 3px 8px;
+margin-top: 4px;
+}
+</style>
+
+</head>
+<body>
+<div class="app" id="app">
+  <div class="header">
+    <div class="logo">Arzoii</div>
+    <div class="logo-sub">shared expenses</div>
+  </div>
+  <div id="main-content">
+    <div class="loading"><div class="spinner"></div><br>Loading...</div>
+  </div>
+</div>
+
+<div class="status-toast" id="toast"></div>
+
+<script>
+// ============================================================
+// CONFIG — fill these in after creating your GitHub repo
+// ============================================================
+const GITHUB_CONFIG = {
+  owner: 'VladBobes',   // ← your GitHub username
+  repo: 'arzoii',          // ← the repo name (same repo as the app)
+  branch: 'main',
+  token: 'GITHUB_TOKEN',   // ← your PAT with Contents: read+write on this repo
+  dataFile: 'data.json'
+};
+// ============================================================
+
+const USERS = [
+  { id: 'bobe',   name: 'Bobe',   idx: 0 },
+  { id: 'bubelu', name: 'Bubelu', idx: 1 },
+  { id: 'enache', name: 'Enache', idx: 2 },
+];
+
+const AVATARS = ['avatar-0', 'avatar-1', 'avatar-2'];
+
+let state = {
+  payments: [],   // { id, payer, amount (in k), note, date }
+  sha: null       // current file SHA for GitHub updates
+};
+
+let currentUser = null;
+
+// ── GitHub API helpers ──────────────────────────────────────
+
+const GH_URL = () =>
+  `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.dataFile}`;
+
+const GH_HEADERS = () => ({
+  'Authorization': `token ${GITHUB_CONFIG.token}`,
+  'Accept': 'application/vnd.github+json',
+  'Content-Type': 'application/json',
+});
+
+async function loadData() {
+  if (GITHUB_CONFIG.token === 'GITHUB_TOKEN') {
+    const raw = localStorage.getItem('arzoii_data');
+    state.payments = raw ? JSON.parse(raw) : [];
+    return;
+  }
+  try {
+    const r = await fetch(GH_URL(), { headers: GH_HEADERS() });
+    if (r.status === 404) {
+      // File doesn't exist yet — that's fine, start fresh
+      state.payments = [];
+      state.sha = null;
+      return;
+    }
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      throw new Error(`GitHub ${r.status}: ${err.message || 'unknown error'}`);
+    }
+    const file = await r.json();
+    state.sha = file.sha;
+    const decoded = atob(file.content.replace(/\n/g, ''));
+    const parsed = JSON.parse(decoded);
+    state.payments = parsed.payments || [];
+    // Sync to localStorage as backup
+    localStorage.setItem('arzoii_data', JSON.stringify(state.payments));
+  } catch(e) {
+    console.error('loadData error:', e);
+    showToast('GitHub error: ' + e.message, 'err');
+    // Fall back to localStorage
+    const raw = localStorage.getItem('arzoii_data');
+    state.payments = raw ? JSON.parse(raw) : [];
+  }
+}
+
+async function saveData() {
+  const json = JSON.stringify({ payments: state.payments }, null, 2);
+  // Always save to localStorage as backup
+  localStorage.setItem('arzoii_data', JSON.stringify(state.payments));
+
+  if (GITHUB_CONFIG.token === 'GITHUB_TOKEN') return;
+
+  try {
+    // Always re-fetch the latest SHA before writing to avoid conflicts
+    const check = await fetch(GH_URL(), { headers: GH_HEADERS() });
+    if (check.ok) {
+      const existing = await check.json();
+      state.sha = existing.sha;
+    } else if (check.status === 404) {
+      state.sha = null; // File doesn't exist yet, we'll create it
+    } else {
+      throw new Error(`Pre-save check failed: ${check.status}`);
+    }
+
+    const encoded = btoa(unescape(encodeURIComponent(json)));
+    const body = {
+      message: 'update arzoii data',
+      content: encoded,
+      branch: GITHUB_CONFIG.branch,
+    };
+    if (state.sha) body.sha = state.sha;
+
+    const r = await fetch(GH_URL(), {
+      method: 'PUT',
+      headers: GH_HEADERS(),
+      body: JSON.stringify(body),
+    });
+
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      throw new Error(`GitHub ${r.status}: ${err.message || 'unknown'}`);
+    }
+
+    const result = await r.json();
+    state.sha = result.content?.sha;
+    showToast('Saved to GitHub ✓', 'ok');
+  } catch(e) {
+    console.error('saveData error:', e);
+    showToast('GitHub save failed: ' + e.message, 'err');
+  }
+}
+
+// ── Math: balance & settlements ─────────────────────────────
+
+function computeBalances() {
+  const totals = { bobe: 0, bubelu: 0, enache: 0 };
+  state.payments.forEach(p => { totals[p.payer] += p.amount; });
+
+  const total = totals.bobe + totals.bubelu + totals.enache;
+  const share = total / 3;
+
+  const net = {
+    bobe:   totals.bobe   - share,
+    bubelu: totals.bubelu - share,
+    enache: totals.enache - share,
+  };
+
+  return { totals, share, net };
+}
+
+function computeSettlements() {
+  const { net } = computeBalances();
+
+  // Copy to mutable arrays
+  let creditors = USERS.map(u => ({ id: u.id, bal: net[u.id] })).filter(x => x.bal > 0.001).sort((a,b) => b.bal - a.bal);
+  let debtors   = USERS.map(u => ({ id: u.id, bal: -net[u.id] })).filter(x => x.bal > 0.001).sort((a,b) => b.bal - a.bal);
+
+  const settlements = [];
+  while (creditors.length && debtors.length) {
+    const cr = creditors[0], de = debtors[0];
+    const amt = Math.min(cr.bal, de.bal);
+    if (amt > 0.001) {
+      settlements.push({ from: de.id, to: cr.id, amount: Math.round(amt * 10) / 10 });
+    }
+    cr.bal -= amt; de.bal -= amt;
+    if (cr.bal < 0.001) creditors.shift();
+    if (de.bal < 0.001) debtors.shift();
+  }
+  return settlements;
+}
+
+// ── Render ───────────────────────────────────────────────────
+
+function userName(id) { return USERS.find(u => u.id === id)?.name || id; }
+function userIdx(id)  { return USERS.find(u => u.id === id)?.idx ?? 0; }
+
+function avatarHTML(id, size = 'balance-avatar') {
+  const n = userName(id);
+  return `<div class="${size} ${AVATARS[userIdx(id)]}">${n[0]}</div>`;
+}
+
+function fmtK(k) {
+  if (k === 0) return '0k';
+  return `${k % 1 === 0 ? k : k.toFixed(1)}k`;
+}
+
+function renderUserSelect() {
+  return `
+    <div class="screen">
+      <div class="select-prompt">
+        <h2>Who are you?</h2>
+        <p>Select your name to continue</p>
+      </div>
+      <div class="user-grid">
+        ${USERS.map(u => `
+          <div class="user-card" onclick="selectUser('${u.id}')">
+            ${avatarHTML(u.id, `user-avatar ${AVATARS[u.idx]}`)}
+            <div class="user-info">
+              <div class="user-name">${u.name}</div>
+              <div class="user-hint">Tap to continue</div>
+            </div>
+            <div class="user-chevron">›</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>`;
+}
+
+function renderMain() {
+  const { net, totals } = computeBalances();
+  const settlements = computeSettlements();
+
+  const welcomeName = userName(currentUser);
+  const myNet = net[currentUser];
+
+  const balanceRows = USERS.map(u => {
+    const val = net[u.id];
+    const cls = val > 0.001 ? 'positive' : val < -0.001 ? 'negative' : 'zero';
+    const sign = val > 0.001 ? '+' : '';
+    return `
+      <div class="balance-card">
+        ${avatarHTML(u.id)}
+        <div class="balance-name">${userName(u.id)}</div>
+        <div class="balance-amount ${cls}">${sign}${fmtK(Math.round(val * 10) / 10)}</div>
+      </div>`;
+  }).join('');
+
+  const settlementHTML = settlements.length === 0
+    ? `<div class="no-settlements"><div class="all-clear">✓ All settled up!</div></div>`
+    : settlements.map(s => `
+        <div class="settlement-item">
+          ${avatarHTML(s.from, `history-avatar ${AVATARS[userIdx(s.from)]}`)}
+          <span style="font-size:0.82rem">${userName(s.from)}</span>
+          <span class="settlement-arrow">→</span>
+          ${avatarHTML(s.to, `history-avatar ${AVATARS[userIdx(s.to)]}`)}
+          <span style="font-size:0.82rem">${userName(s.to)}</span>
+          <span class="settlement-amount">${fmtK(s.amount)}</span>
+        </div>`).join('');
+
+  const historyHTML = [...state.payments].reverse().slice(0, 20).map(p => `
+    <div class="history-item">
+      ${avatarHTML(p.payer, `history-avatar ${AVATARS[userIdx(p.payer)]}`)}
+      <div class="history-info">
+        <div class="history-payer">${userName(p.payer)} paid</div>
+        <div class="history-note">${p.note || formatDate(p.date)}</div>
+      </div>
+      <div class="history-amount">${fmtK(p.amount)}</div>
+      <button class="history-delete" onclick="deletePayment('${p.id}')" title="Delete">✕</button>
+    </div>`).join('') || `<div class="no-settlements">No payments yet</div>`;
+
+  const otherUsers = USERS.filter(u => u.id !== currentUser);
+
+  return `
+    <div class="screen">
+      <div class="welcome-bar">
+        <div class="welcome-left">
+          ${avatarHTML(currentUser, `welcome-avatar ${AVATARS[userIdx(currentUser)]}`)}
+          <div class="welcome-text">Hey, <strong>${welcomeName}</strong> 👋</div>
+        </div>
+        <button class="switch-btn" onclick="switchUser()">Switch</button>
+      </div>
+
+      <div class="section-title">Balances</div>
+      <div class="balance-cards">${balanceRows}</div>
+
+      <div class="section-title">Who pays who</div>
+      <div class="settlements">${settlementHTML}</div>
+
+      <div class="section-title">Add Payment</div>
+      <div class="add-section">
+        <div class="input-row">
+          <div class="input-group">
+            <div class="input-label">Paid by</div>
+            <select class="styled-select" id="payer-select">
+              ${USERS.map(u => `<option value="${u.id}" ${u.id === currentUser ? 'selected' : ''}>${u.name}</option>`).join('')}
+            </select>
+          </div>
+          <div class="input-group">
+            <div class="input-label">Amount</div>
+            <div class="input-suffix">
+              <input class="styled-input" type="number" id="amount-input" placeholder="e.g. 90" min="0.1" step="0.1">
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-label">Note (optional)</div>
+            <input class="styled-input" type="text" id="note-input" placeholder="e.g. groceries">
+          </div>
+          <button class="add-btn" id="add-btn" onclick="addPayment()">+ Add Payment</button>
+        </div>
+      </div>
+
+      <div class="section-title">History</div>
+      <div class="history-list">${historyHTML}</div>
+    </div>`;
+}
+
+function formatDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+}
+
+function render() {
+  const el = document.getElementById('main-content');
+  if (!currentUser) {
+    el.innerHTML = renderUserSelect();
+  } else {
+    el.innerHTML = renderMain();
+  }
+}
+
+// ── Actions ─────────────────────────────────────────────────
+
+function selectUser(id) {
+  currentUser = id;
+  localStorage.setItem('arzoii_user', id);
+  render();
+}
+
+function switchUser() {
+  currentUser = null;
+  localStorage.removeItem('arzoii_user');
+  render();
+}
+
+async function addPayment() {
+  const payer = document.getElementById('payer-select').value;
+  const amtRaw = document.getElementById('amount-input').value;
+  const note = document.getElementById('note-input').value.trim();
+
+  const amount = parseFloat(amtRaw);
+  if (!amount || amount <= 0) {
+    showToast('Enter a valid amount', 'err');
+    return;
+  }
+
+  const btn = document.getElementById('add-btn');
+  btn.disabled = true;
+  btn.textContent = 'Saving…';
+
+  const payment = {
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2,5),
+    payer,
+    amount,
+    note,
+    date: new Date().toISOString()
+  };
+
+  state.payments.push(payment);
+  await saveData();
+  showToast('Payment added!', 'ok');
+  render();
+}
+
+async function deletePayment(id) {
+  if (!confirm('Delete this payment?')) return;
+  state.payments = state.payments.filter(p => p.id !== id);
+  await saveData();
+  showToast('Deleted', 'ok');
+  render();
+}
+
+function showToast(msg, type = 'ok') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = `status-toast ${type} show`;
+  setTimeout(() => { t.className = 'status-toast'; }, 2800);
+}
+
+// ── Init ────────────────────────────────────────────────────
+
+async function init() {
+  document.getElementById('main-content').innerHTML = `<div class="loading"><div class="spinner"></div><br>Loading…</div>`;
+  await loadData();
+  const saved = localStorage.getItem('arzoii_user');
+  if (saved && USERS.find(u => u.id === saved)) currentUser = saved;
+  render();
+}
+
+init();
+</script>
+
+</body>
+</html>

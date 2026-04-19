@@ -82,6 +82,14 @@
       "amount": 350,
       "note": "Ciuperci",
       "date": "2026-04-19T11:57:07.750Z"
+    },
+    {
+      "id": "mo68m3sos8v",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 110,
+      "note": "tigari",
+      "date": "2026-04-19T20:47:31.512Z"
     }
   ]
 }

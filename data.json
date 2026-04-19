@@ -57,15 +57,6 @@
       "amount": 40,
       "note": "Taxa praf",
       "date": "2026-04-18T14:27:48.138Z"
-    },
-    {
-      "id": "mo5m5ncjiuj",
-      "type": "direct",
-      "from": "enache",
-      "to": "bubelu",
-      "amount": 300,
-      "note": "Pantaloni",
-      "date": "2026-04-19T10:18:52.147Z"
     }
   ]
 }

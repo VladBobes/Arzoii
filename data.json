@@ -66,15 +66,6 @@
       "amount": 300,
       "note": "Pantaloni",
       "date": "2026-04-19T10:18:52.147Z"
-    },
-    {
-      "id": "mo5m6w59geb",
-      "type": "direct",
-      "from": "enache",
-      "to": "bobe",
-      "amount": 300,
-      "note": "Pantaloni",
-      "date": "2026-04-19T10:19:50.205Z"
     }
   ]
 }

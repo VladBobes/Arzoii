@@ -74,6 +74,14 @@
       "amount": 60,
       "note": "Ciuperci",
       "date": "2026-04-19T10:45:07.606Z"
+    },
+    {
+      "id": "mo5po0fanfb",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 350,
+      "note": "Ciuperci",
+      "date": "2026-04-19T11:57:07.750Z"
     }
   ]
 }

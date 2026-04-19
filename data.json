@@ -5,7 +5,7 @@
       "type": "group",
       "payer": "bobe",
       "amount": 120,
-      "note": "",
+      "note": "argat",
       "date": "2026-04-18T12:45:59.169Z"
     },
     {
@@ -39,7 +39,7 @@
       "from": "bobe",
       "to": "bubelu",
       "amount": 100,
-      "note": "MÃÂÃÂ¢ncare balena",
+      "note": "Mancare balena",
       "date": "2026-04-18T13:21:18.883Z"
     },
     {
@@ -47,7 +47,7 @@
       "type": "group",
       "payer": "enache",
       "amount": 1000,
-      "note": "SeminÃÂe coca",
+      "note": "Seminte coca",
       "date": "2026-04-18T14:25:11.976Z"
     },
     {

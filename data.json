@@ -66,6 +66,14 @@
       "amount": 300,
       "note": "Pantaloni",
       "date": "2026-04-19T10:20:43.120Z"
+    },
+    {
+      "id": "mo5n3eza7jk",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 60,
+      "note": "Ciuperci",
+      "date": "2026-04-19T10:45:07.606Z"
     }
   ]
 }

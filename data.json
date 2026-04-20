@@ -148,6 +148,14 @@
       "amount": 900,
       "note": "Compleu combinatie",
       "date": "2026-04-20T19:48:51.565Z"
+    },
+    {
+      "id": "mo7m39kq36x",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 50,
+      "note": "Taxa maldive",
+      "date": "2026-04-20T19:52:33.338Z"
     }
   ]
 }

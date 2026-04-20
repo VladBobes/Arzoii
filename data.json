@@ -181,14 +181,6 @@
       "amount": 100,
       "note": "plastic + diamant",
       "date": "2026-04-20T22:12:57.570Z"
-    },
-    {
-      "id": "mo7rnf3be3f",
-      "type": "group",
-      "payer": "bubelu",
-      "amount": 283000,
-      "note": "plastic",
-      "date": "2026-04-20T22:28:11.687Z"
     }
   ]
 }

@@ -98,6 +98,14 @@
       "amount": 40,
       "note": "Taxa ciuperci",
       "date": "2026-04-20T09:58:27.192Z"
+    },
+    {
+      "id": "mo720afpa8u",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 480,
+      "note": "Ciuperci",
+      "date": "2026-04-20T10:30:22.165Z"
     }
   ]
 }

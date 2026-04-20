@@ -115,6 +115,14 @@
       "amount": 325,
       "note": "Fabian",
       "date": "2026-04-20T10:31:20.710Z"
+    },
+    {
+      "id": "mo724v9pn7o",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 34,
+      "note": "Ciuperci",
+      "date": "2026-04-20T10:33:55.789Z"
     }
   ]
 }

@@ -106,6 +106,15 @@
       "amount": 480,
       "note": "Ciuperci",
       "date": "2026-04-20T10:30:22.165Z"
+    },
+    {
+      "id": "mo721jlyods",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 325,
+      "note": "Fabian",
+      "date": "2026-04-20T10:31:20.710Z"
     }
   ]
 }

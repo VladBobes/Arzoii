@@ -147,6 +147,15 @@
       "amount": 1000,
       "note": "Seminte coca",
       "date": "2026-04-20T21:23:58.923Z"
+    },
+    {
+      "id": "mo7pqwpvs06",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1100,
+      "note": "papuci geanta",
+      "date": "2026-04-20T21:34:55.267Z"
     }
   ]
 }

@@ -139,6 +139,15 @@
       "amount": 110,
       "note": "Ciuperci",
       "date": "2026-04-20T16:58:46.585Z"
+    },
+    {
+      "id": "mo7lyigbd7g",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 900,
+      "note": "Compleu combinatie",
+      "date": "2026-04-20T19:48:51.565Z"
     }
   ]
 }

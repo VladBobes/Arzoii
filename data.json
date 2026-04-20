@@ -173,6 +173,14 @@
       "amount": 48,
       "note": "plastic",
       "date": "2026-04-20T22:08:46.144Z"
+    },
+    {
+      "id": "mo7r3tr62kx",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 100,
+      "note": "plastic + diamant",
+      "date": "2026-04-20T22:12:57.570Z"
     }
   ]
 }

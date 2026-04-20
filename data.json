@@ -59,15 +59,6 @@
       "date": "2026-04-18T14:27:48.138Z"
     },
     {
-      "id": "mo5m80z48af",
-      "type": "direct",
-      "from": "bubelu",
-      "to": "enache",
-      "amount": 300,
-      "note": "Pantaloni",
-      "date": "2026-04-19T10:20:43.120Z"
-    },
-    {
       "id": "mo5n3eza7jk",
       "type": "group",
       "payer": "bobe",

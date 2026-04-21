@@ -205,6 +205,14 @@
       "amount": 816,
       "note": "acetona",
       "date": "2026-04-21T14:29:59.918Z"
+    },
+    {
+      "id": "mo8vcjhpagt",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1644,
+      "note": "Coca si ciuperci",
+      "date": "2026-04-21T16:59:28.813Z"
     }
   ]
 }

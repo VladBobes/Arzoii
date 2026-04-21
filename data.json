@@ -221,14 +221,6 @@
       "amount": 1021,
       "note": "Jointuri",
       "date": "2026-04-21T19:49:49.435Z"
-    },
-    {
-      "id": "mo92w8o3zqr",
-      "type": "group",
-      "payer": "bobe",
-      "amount": 1000000,
-      "note": "coca",
-      "date": "2026-04-21T20:30:45.219Z"
     }
   ]
 }

@@ -189,6 +189,14 @@
       "amount": 283,
       "note": "plastic",
       "date": "2026-04-20T22:28:38.751Z"
+    },
+    {
+      "id": "mo8pzj7w6li",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 648,
+      "note": "acetona",
+      "date": "2026-04-21T14:29:23.852Z"
     }
   ]
 }

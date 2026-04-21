@@ -213,6 +213,14 @@
       "amount": 1644,
       "note": "Coca si ciuperci",
       "date": "2026-04-21T16:59:28.813Z"
+    },
+    {
+      "id": "mo91flrve80",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 1021,
+      "note": "Jointuri",
+      "date": "2026-04-21T19:49:49.435Z"
     }
   ]
 }

@@ -237,6 +237,14 @@
       "amount": 270,
       "note": "Acetina",
       "date": "2026-04-22T09:21:47.057Z"
+    },
+    {
+      "id": "moa0whoeh9c",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 90,
+      "note": "ciuperci",
+      "date": "2026-04-22T12:22:43.838Z"
     }
   ]
 }

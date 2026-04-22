@@ -245,14 +245,6 @@
       "amount": 90,
       "note": "ciuperci",
       "date": "2026-04-22T12:22:43.838Z"
-    },
-    {
-      "id": "moa63a4fgpo",
-      "type": "income",
-      "receiver": "enache",
-      "amount": 607,
-      "note": "Joint-uri",
-      "date": "2026-04-22T14:47:58.719Z"
     }
   ]
 }

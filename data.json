@@ -229,6 +229,14 @@
       "amount": 1000,
       "note": "coca",
       "date": "2026-04-21T20:30:59.233Z"
+    },
+    {
+      "id": "mo9ufsj5mka",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 270,
+      "note": "Acetina",
+      "date": "2026-04-22T09:21:47.057Z"
     }
   ]
 }

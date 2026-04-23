@@ -261,6 +261,14 @@
       "amount": 296,
       "note": "Joint ciuperci",
       "date": "2026-04-23T10:51:02.719Z"
+    },
+    {
+      "id": "mobqt62i87c",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 874,
+      "note": "Ciuperci tigari otel",
+      "date": "2026-04-23T17:15:45.018Z"
     }
   ]
 }

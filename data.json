@@ -269,6 +269,14 @@
       "amount": 874,
       "note": "Ciuperci tigari otel",
       "date": "2026-04-23T17:15:45.018Z"
+    },
+    {
+      "id": "mobt4bntsbi",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 333,
+      "note": "tigari cupru fier",
+      "date": "2026-04-23T18:20:24.713Z"
     }
   ]
 }

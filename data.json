@@ -277,6 +277,14 @@
       "amount": 333,
       "note": "tigari cupru fier",
       "date": "2026-04-23T18:20:24.713Z"
+    },
+    {
+      "id": "mobz9z1hc2b",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 135,
+      "note": "Tigari",
+      "date": "2026-04-23T21:12:45.989Z"
     }
   ]
 }

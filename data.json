@@ -341,6 +341,14 @@
       "amount": 122,
       "note": "Jointuri",
       "date": "2026-04-24T20:11:19.690Z"
+    },
+    {
+      "id": "moddqejevt0",
+      "type": "group",
+      "payer": "enache",
+      "amount": 1000,
+      "note": "seminte coca",
+      "date": "2026-04-24T20:45:13.370Z"
     }
   ]
 }

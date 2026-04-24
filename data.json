@@ -349,6 +349,15 @@
       "amount": 1000,
       "note": "seminte coca",
       "date": "2026-04-24T20:45:13.370Z"
+    },
+    {
+      "id": "moddwry1icx",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 396,
+      "note": "Spalat",
+      "date": "2026-04-24T20:50:10.681Z"
     }
   ]
 }

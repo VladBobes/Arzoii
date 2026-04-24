@@ -325,6 +325,14 @@
       "amount": 250,
       "note": "Ciuperci",
       "date": "2026-04-24T11:20:51.090Z"
+    },
+    {
+      "id": "modcikjpjsd",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 150,
+      "note": "Ape brichete",
+      "date": "2026-04-24T20:11:08.293Z"
     }
   ]
 }

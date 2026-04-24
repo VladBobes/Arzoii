@@ -293,6 +293,14 @@
       "amount": 100,
       "note": "Tigari",
       "date": "2026-04-23T21:18:56.399Z"
+    },
+    {
+      "id": "mocqhpzx73j",
+      "type": "group",
+      "payer": "enache",
+      "amount": 90,
+      "note": "Ciuperci",
+      "date": "2026-04-24T09:54:37.149Z"
     }
   ]
 }

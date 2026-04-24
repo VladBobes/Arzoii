@@ -333,6 +333,14 @@
       "amount": 150,
       "note": "Ape brichete",
       "date": "2026-04-24T20:11:08.293Z"
+    },
+    {
+      "id": "modcitcamve",
+      "type": "group",
+      "payer": "enache",
+      "amount": 122,
+      "note": "Jointuri",
+      "date": "2026-04-24T20:11:19.690Z"
     }
   ]
 }

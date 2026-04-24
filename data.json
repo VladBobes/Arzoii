@@ -317,6 +317,14 @@
       "amount": 40,
       "note": "Topi",
       "date": "2026-04-24T10:19:43.862Z"
+    },
+    {
+      "id": "moctkm8im8o",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 250,
+      "note": "Ciuperci",
+      "date": "2026-04-24T11:20:51.090Z"
     }
   ]
 }

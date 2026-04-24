@@ -309,6 +309,14 @@
       "amount": 40,
       "note": "Topi",
       "date": "2026-04-24T10:19:37.593Z"
+    },
+    {
+      "id": "mocre0l2pze",
+      "type": "group",
+      "payer": "enache",
+      "amount": 40,
+      "note": "Topi",
+      "date": "2026-04-24T10:19:43.862Z"
     }
   ]
 }

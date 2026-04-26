@@ -422,6 +422,14 @@
       "amount": 39,
       "note": "Ciuperci",
       "date": "2026-04-26T20:37:53.364Z"
+    },
+    {
+      "id": "mog8d4gxaul",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 280,
+      "note": "Ciuperci",
+      "date": "2026-04-26T20:38:14.241Z"
     }
   ]
 }

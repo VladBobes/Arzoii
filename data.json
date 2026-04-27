@@ -438,6 +438,14 @@
       "amount": 1596,
       "note": "Acetona",
       "date": "2026-04-27T08:38:04.243Z"
+    },
+    {
+      "id": "mogyhoer9xm",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 726,
+      "note": "Acetona",
+      "date": "2026-04-27T08:49:36.723Z"
     }
   ]
 }

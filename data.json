@@ -470,6 +470,14 @@
       "amount": 1277,
       "note": "Jointuri",
       "date": "2026-04-28T10:02:07.740Z"
+    },
+    {
+      "id": "moigu25dyag",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 530,
+      "note": "Plicuri albastre",
+      "date": "2026-04-28T10:10:53.665Z"
     }
   ]
 }

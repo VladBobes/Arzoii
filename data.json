@@ -462,6 +462,14 @@
       "amount": 130,
       "note": "Ciuperci",
       "date": "2026-04-27T18:49:37.269Z"
+    },
+    {
+      "id": "moigiscce6u",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 1277,
+      "note": "Jointuri",
+      "date": "2026-04-28T10:02:07.740Z"
     }
   ]
 }

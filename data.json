@@ -494,6 +494,14 @@
       "amount": 574,
       "note": "Comanda",
       "date": "2026-04-30T21:27:41.610Z"
+    },
+    {
+      "id": "molzwr0di3o",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 51,
+      "note": "Ciuperci",
+      "date": "2026-04-30T21:28:10.429Z"
     }
   ]
 }

@@ -486,6 +486,14 @@
       "amount": 372,
       "note": "Acetona",
       "date": "2026-04-28T16:50:28.455Z"
+    },
+    {
+      "id": "molzw4rudm8",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 574,
+      "note": "Comanda",
+      "date": "2026-04-30T21:27:41.610Z"
     }
   ]
 }

@@ -518,6 +518,14 @@
       "amount": 1176,
       "note": "Ciuperci",
       "date": "2026-05-03T19:00:43.162Z"
+    },
+    {
+      "id": "moq5314h93p",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 950,
+      "note": "Joint",
+      "date": "2026-05-03T19:04:06.257Z"
     }
   ]
 }

@@ -510,6 +510,14 @@
       "amount": 420,
       "note": "Tigari",
       "date": "2026-05-03T10:16:16.184Z"
+    },
+    {
+      "id": "moq4yoexbfc",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1176,
+      "note": "Ciuperci",
+      "date": "2026-05-03T19:00:43.162Z"
     }
   ]
 }

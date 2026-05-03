@@ -502,6 +502,14 @@
       "amount": 51,
       "note": "Ciuperci",
       "date": "2026-04-30T21:28:10.429Z"
+    },
+    {
+      "id": "mopm88c88xv",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 420,
+      "note": "Tigari",
+      "date": "2026-05-03T10:16:16.184Z"
     }
   ]
 }

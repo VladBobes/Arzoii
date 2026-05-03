@@ -526,6 +526,14 @@
       "amount": 950,
       "note": "Joint",
       "date": "2026-05-03T19:04:06.257Z"
+    },
+    {
+      "id": "moq688toiu5",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1500,
+      "note": "Joint ciuperci",
+      "date": "2026-05-03T19:36:09.132Z"
     }
   ]
 }

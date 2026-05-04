@@ -534,6 +534,14 @@
       "amount": 1500,
       "note": "Joint ciuperci",
       "date": "2026-05-03T19:36:09.132Z"
+    },
+    {
+      "id": "mordfknvrjb",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1725,
+      "note": "Droguri",
+      "date": "2026-05-04T15:45:34.555Z"
     }
   ]
 }

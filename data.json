@@ -542,6 +542,14 @@
       "amount": 1725,
       "note": "Droguri",
       "date": "2026-05-04T15:45:34.555Z"
+    },
+    {
+      "id": "mosh58l05d0",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 240,
+      "note": "Acetona",
+      "date": "2026-05-05T10:17:16.980Z"
     }
   ]
 }

@@ -576,6 +576,15 @@
       "amount": 1340.3,
       "note": "Settlement",
       "date": "2026-05-07T13:38:13.173Z"
+    },
+    {
+      "id": "movj7vmt1de",
+      "type": "direct",
+      "from": "enache",
+      "to": "bubelu",
+      "amount": 8716.6,
+      "note": "Settlement",
+      "date": "2026-05-07T13:38:37.925Z"
     }
   ]
 }

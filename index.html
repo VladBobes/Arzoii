@@ -1176,15 +1176,17 @@ async function addPayment() {
 
 async function settleDebt(from, to, amount) {
   if (!confirm(`Record that ${userName(from)} paid ${fmtK(amount)} to ${userName(to)}?`)) return;
+
   const payment = {
     id: Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
     type: 'direct',
-    from,
-    to,
+    from: to,      // creditor now owes back less
+    to: from,      // debtor gets credited
     amount,
     note: 'Settlement',
     date: new Date().toISOString(),
   };
+
   state.payments.push(payment);
   await saveData();
   showToast('Settled!', 'ok');

@@ -558,15 +558,6 @@
       "amount": 54,
       "note": "CupAl",
       "date": "2026-05-07T13:19:08.794Z"
-    },
-    {
-      "id": "movjao5ibit",
-      "type": "direct",
-      "from": "enache",
-      "to": "bobe",
-      "amount": 1340.3,
-      "note": "Settlement",
-      "date": "2026-05-07T13:40:48.198Z"
     }
   ]
 }

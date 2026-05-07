@@ -603,6 +603,15 @@
       "amount": 17433.2,
       "note": "Settlement",
       "date": "2026-05-07T13:38:47.343Z"
+    },
+    {
+      "id": "movj85biir1",
+      "type": "direct",
+      "from": "enache",
+      "to": "bobe",
+      "amount": 5361.2,
+      "note": "Settlement",
+      "date": "2026-05-07T13:38:50.478Z"
     }
   ]
 }

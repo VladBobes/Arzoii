@@ -558,6 +558,15 @@
       "amount": 54,
       "note": "CupAl",
       "date": "2026-05-07T13:19:08.794Z"
+    },
+    {
+      "id": "movj79h4ino",
+      "type": "direct",
+      "from": "enache",
+      "to": "bubelu",
+      "amount": 4358.3,
+      "note": "Settlement",
+      "date": "2026-05-07T13:38:09.208Z"
     }
   ]
 }

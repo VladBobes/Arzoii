@@ -560,15 +560,6 @@
       "date": "2026-05-07T13:19:08.794Z"
     },
     {
-      "id": "movizqclpsz",
-      "type": "direct",
-      "from": "enache",
-      "to": "bobe",
-      "amount": 1340.3,
-      "note": "Settlement",
-      "date": "2026-05-07T13:32:17.829Z"
-    },
-    {
       "id": "movizt52w0e",
       "type": "direct",
       "from": "enache",

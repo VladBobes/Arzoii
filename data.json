@@ -567,6 +567,15 @@
       "amount": 4358.3,
       "note": "Settlement",
       "date": "2026-05-07T13:48:49.735Z"
+    },
+    {
+      "id": "movjl27sv4u",
+      "type": "direct",
+      "from": "bobe",
+      "to": "enache",
+      "amount": 1340.3,
+      "note": "Settlement",
+      "date": "2026-05-07T13:48:52.984Z"
     }
   ]
 }

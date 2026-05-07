@@ -558,15 +558,6 @@
       "amount": 54,
       "note": "CupAl",
       "date": "2026-05-07T13:19:08.794Z"
-    },
-    {
-      "id": "movizt52w0e",
-      "type": "direct",
-      "from": "enache",
-      "to": "bubelu",
-      "amount": 4358.3,
-      "note": "Settlement",
-      "date": "2026-05-07T13:32:21.446Z"
     }
   ]
 }

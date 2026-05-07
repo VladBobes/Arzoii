@@ -550,6 +550,14 @@
       "amount": 240,
       "note": "Acetona",
       "date": "2026-05-05T10:17:16.980Z"
+    },
+    {
+      "id": "moviitiyejr",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 54,
+      "note": "CupAl",
+      "date": "2026-05-07T13:19:08.794Z"
     }
   ]
 }

@@ -567,6 +567,15 @@
       "amount": 1340.3,
       "note": "Settlement",
       "date": "2026-05-07T13:32:17.829Z"
+    },
+    {
+      "id": "movizt52w0e",
+      "type": "direct",
+      "from": "enache",
+      "to": "bubelu",
+      "amount": 4358.3,
+      "note": "Settlement",
+      "date": "2026-05-07T13:32:21.446Z"
     }
   ]
 }

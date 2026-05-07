@@ -584,6 +584,14 @@
       "amount": 648,
       "note": "Coca ciuperci",
       "date": "2026-05-07T13:49:27.137Z"
+    },
+    {
+      "id": "movjm5sb4he",
+      "type": "group",
+      "payer": "enache",
+      "amount": 0.1,
+      "note": "Reglaj",
+      "date": "2026-05-07T13:49:44.267Z"
     }
   ]
 }

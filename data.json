@@ -592,6 +592,14 @@
       "amount": 0.1,
       "note": "Reglaj",
       "date": "2026-05-07T13:49:44.267Z"
+    },
+    {
+      "id": "mowou0kx4ef",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1200,
+      "note": "Joint tigari",
+      "date": "2026-05-08T09:03:35.025Z"
     }
   ]
 }

@@ -608,6 +608,14 @@
       "amount": 1200,
       "note": "Joint tigari",
       "date": "2026-05-08T09:03:42.546Z"
+    },
+    {
+      "id": "mowsb553rc7",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 445,
+      "note": "Ciuperci",
+      "date": "2026-05-08T10:40:52.935Z"
     }
   ]
 }

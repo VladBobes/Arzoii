@@ -600,6 +600,14 @@
       "amount": 1200,
       "note": "Joint tigari",
       "date": "2026-05-08T09:03:35.025Z"
+    },
+    {
+      "id": "mowou6du43m",
+      "type": "group",
+      "payer": "enache",
+      "amount": 1200,
+      "note": "Joint tigari",
+      "date": "2026-05-08T09:03:42.546Z"
     }
   ]
 }

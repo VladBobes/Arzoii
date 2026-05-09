@@ -640,6 +640,14 @@
       "amount": 140,
       "note": "Tigari",
       "date": "2026-05-09T14:37:48.023Z"
+    },
+    {
+      "id": "moyljawh1t3",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 967,
+      "note": "Ciuperci",
+      "date": "2026-05-09T17:06:48.689Z"
     }
   ]
 }

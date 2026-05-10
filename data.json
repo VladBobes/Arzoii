@@ -654,8 +654,16 @@
       "type": "group",
       "payer": "bubelu",
       "amount": 300,
-      "note": "Semințe",
+      "note": "SeminÈe",
       "date": "2026-05-09T18:47:53.469Z"
+    },
+    {
+      "id": "mozpmfqkwjd",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 100,
+      "note": "Ciuperci",
+      "date": "2026-05-10T11:48:59.564Z"
     }
   ]
 }

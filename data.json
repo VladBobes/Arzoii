@@ -654,7 +654,7 @@
       "type": "group",
       "payer": "bubelu",
       "amount": 300,
-      "note": "SeminÈe",
+      "note": "SeminÃÂe",
       "date": "2026-05-09T18:47:53.469Z"
     },
     {
@@ -678,8 +678,16 @@
       "type": "group",
       "payer": "bubelu",
       "amount": 1550,
-      "note": "Țigări",
+      "note": "ÈigÄri",
       "date": "2026-05-10T12:04:27.173Z"
+    },
+    {
+      "id": "mp0zkp20cho",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 40,
+      "note": "Topi",
+      "date": "2026-05-11T09:15:20.664Z"
     }
   ]
 }

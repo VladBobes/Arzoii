@@ -817,6 +817,14 @@
       "amount": 320,
       "note": "Ciup",
       "date": "2026-05-12T20:03:40.711Z"
+    },
+    {
+      "id": "mp34t8ahcfh",
+      "type": "group",
+      "payer": "enache",
+      "amount": 231,
+      "note": "Ciuperci",
+      "date": "2026-05-12T21:17:29.273Z"
     }
   ]
 }

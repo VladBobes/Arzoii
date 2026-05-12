@@ -744,6 +744,14 @@
       "amount": 90,
       "note": "Ciuperci",
       "date": "2026-05-12T11:54:20.943Z"
+    },
+    {
+      "id": "mp2kpg4s63v",
+      "type": "group",
+      "payer": "enache",
+      "amount": 40,
+      "note": "Ciuperci",
+      "date": "2026-05-12T11:54:40.492Z"
     }
   ]
 }

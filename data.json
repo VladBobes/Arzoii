@@ -801,6 +801,14 @@
       "amount": 3000,
       "note": "Acetona",
       "date": "2026-05-12T17:53:09.336Z"
+    },
+    {
+      "id": "mp325slc04b",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 1873,
+      "note": "",
+      "date": "2026-05-12T20:03:16.608Z"
     }
   ]
 }

@@ -776,6 +776,14 @@
       "amount": 227,
       "note": "Ciup",
       "date": "2026-05-12T12:08:22.167Z"
+    },
+    {
+      "id": "mp2nmo69a60",
+      "type": "group",
+      "payer": "enache",
+      "amount": 334,
+      "note": "Ciuperci",
+      "date": "2026-05-12T13:16:29.793Z"
     }
   ]
 }

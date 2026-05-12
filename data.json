@@ -793,6 +793,14 @@
       "amount": 643,
       "note": "",
       "date": "2026-05-12T13:23:12.877Z"
+    },
+    {
+      "id": "mp2xiggom3n",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 3000,
+      "note": "Acetona",
+      "date": "2026-05-12T17:53:09.336Z"
     }
   ]
 }

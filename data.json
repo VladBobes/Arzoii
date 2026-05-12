@@ -768,6 +768,14 @@
       "amount": 300,
       "note": "Seminte",
       "date": "2026-05-12T12:06:14.399Z"
+    },
+    {
+      "id": "mp2l72531qd",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 227,
+      "note": "Ciup",
+      "date": "2026-05-12T12:08:22.167Z"
     }
   ]
 }

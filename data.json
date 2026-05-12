@@ -784,6 +784,15 @@
       "amount": 334,
       "note": "Ciuperci",
       "date": "2026-05-12T13:16:29.793Z"
+    },
+    {
+      "id": "mp2nvb71f3s",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 643,
+      "note": "",
+      "date": "2026-05-12T13:23:12.877Z"
     }
   ]
 }

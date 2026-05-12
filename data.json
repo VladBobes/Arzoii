@@ -809,6 +809,14 @@
       "amount": 1873,
       "note": "",
       "date": "2026-05-12T20:03:16.608Z"
+    },
+    {
+      "id": "mp326b6vrp7",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 320,
+      "note": "Ciup",
+      "date": "2026-05-12T20:03:40.711Z"
     }
   ]
 }

@@ -784,6 +784,15 @@
       "amount": 334,
       "note": "Ciuperci",
       "date": "2026-05-12T13:16:29.793Z"
+    },
+    {
+      "id": "mp2nu0x41mk",
+      "type": "direct",
+      "from": "enache",
+      "to": "bobe",
+      "amount": 643,
+      "note": "Platit",
+      "date": "2026-05-12T13:22:12.904Z"
     }
   ]
 }

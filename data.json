@@ -825,6 +825,14 @@
       "amount": 231,
       "note": "Ciuperci",
       "date": "2026-05-12T21:17:29.273Z"
+    },
+    {
+      "id": "mp37cywu50q",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 140,
+      "note": "Plastic",
+      "date": "2026-05-12T22:28:49.470Z"
     }
   ]
 }

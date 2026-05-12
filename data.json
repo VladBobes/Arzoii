@@ -736,6 +736,14 @@
       "amount": 575,
       "note": "Tigari",
       "date": "2026-05-12T11:53:51.948Z"
+    },
+    {
+      "id": "mp2kp11rm9d",
+      "type": "group",
+      "payer": "enache",
+      "amount": 90,
+      "note": "Ciuperci",
+      "date": "2026-05-12T11:54:20.943Z"
     }
   ]
 }

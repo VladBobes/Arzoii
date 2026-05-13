@@ -833,6 +833,14 @@
       "amount": 140,
       "note": "Plastic",
       "date": "2026-05-12T22:28:49.470Z"
+    },
+    {
+      "id": "mp3u0xptis9",
+      "type": "group",
+      "payer": "enache",
+      "amount": 330,
+      "note": "Ciuperci",
+      "date": "2026-05-13T09:03:19.217Z"
     }
   ]
 }

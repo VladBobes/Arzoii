@@ -841,6 +841,14 @@
       "amount": 330,
       "note": "Ciuperci",
       "date": "2026-05-13T09:03:19.217Z"
+    },
+    {
+      "id": "mp3vlricbc2",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 166,
+      "note": "Ciuperci",
+      "date": "2026-05-13T09:47:30.564Z"
     }
   ]
 }

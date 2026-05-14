@@ -857,6 +857,14 @@
       "amount": 670,
       "note": "Ciu",
       "date": "2026-05-14T08:06:18.170Z"
+    },
+    {
+      "id": "mp57fool4mi",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 46,
+      "note": "Ciu",
+      "date": "2026-05-14T08:06:28.533Z"
     }
   ]
 }

@@ -865,6 +865,14 @@
       "amount": 46,
       "note": "Ciu",
       "date": "2026-05-14T08:06:28.533Z"
+    },
+    {
+      "id": "mp5ij4nwhwu",
+      "type": "group",
+      "payer": "enache",
+      "amount": 600,
+      "note": "Acetona",
+      "date": "2026-05-14T13:17:04.988Z"
     }
   ]
 }

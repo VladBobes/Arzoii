@@ -939,6 +939,14 @@
       "amount": 150,
       "note": "Tigari scandura",
       "date": "2026-05-15T22:21:30.300Z"
+    },
+    {
+      "id": "mp7hhmlz44a",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 550,
+      "note": "Tigari",
+      "date": "2026-05-15T22:23:27.671Z"
     }
   ]
 }

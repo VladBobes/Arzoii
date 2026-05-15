@@ -914,6 +914,14 @@
       "amount": 190,
       "note": "Ciuperci",
       "date": "2026-05-15T19:55:06.170Z"
+    },
+    {
+      "id": "mp7d9xzvsdp",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 874,
+      "note": "Coup",
+      "date": "2026-05-15T20:25:30.715Z"
     }
   ]
 }

@@ -931,6 +931,14 @@
       "amount": 16760,
       "note": "Jeska",
       "date": "2026-05-15T22:12:45.594Z"
+    },
+    {
+      "id": "mp7hf41o0z1",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 150,
+      "note": "Tigari scandura",
+      "date": "2026-05-15T22:21:30.300Z"
     }
   ]
 }

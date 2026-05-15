@@ -922,6 +922,15 @@
       "amount": 874,
       "note": "Coup",
       "date": "2026-05-15T20:25:30.715Z"
+    },
+    {
+      "id": "mp7h3v6h3xa",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 16760,
+      "note": "Jeska",
+      "date": "2026-05-15T22:12:45.594Z"
     }
   ]
 }

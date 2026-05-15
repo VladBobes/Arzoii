@@ -898,6 +898,14 @@
       "amount": 170,
       "note": "Tigari",
       "date": "2026-05-15T12:24:22.751Z"
+    },
+    {
+      "id": "mp73lvm8f8u",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1486,
+      "note": "Ciuperci",
+      "date": "2026-05-15T15:54:51.344Z"
     }
   ]
 }

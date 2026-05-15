@@ -873,6 +873,15 @@
       "amount": 600,
       "note": "Acetona",
       "date": "2026-05-14T13:17:04.988Z"
+    },
+    {
+      "id": "mp6uce88sge",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 300,
+      "note": "Carte",
+      "date": "2026-05-15T11:35:32.360Z"
     }
   ]
 }

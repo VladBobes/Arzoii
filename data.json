@@ -882,6 +882,14 @@
       "amount": 300,
       "note": "Carte",
       "date": "2026-05-15T11:35:32.360Z"
+    },
+    {
+      "id": "mp6w2zc4acy",
+      "type": "group",
+      "payer": "enache",
+      "amount": 129,
+      "note": "Ciuperci",
+      "date": "2026-05-15T12:24:12.388Z"
     }
   ]
 }

@@ -946,6 +946,14 @@
       "amount": 2151,
       "note": "Joi+ciup",
       "date": "2026-05-17T16:14:05.860Z"
+    },
+    {
+      "id": "mpa3lk5tvga",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 156,
+      "note": "Ciup+joint",
+      "date": "2026-05-17T18:17:55.025Z"
     }
   ]
 }

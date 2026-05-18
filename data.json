@@ -954,6 +954,14 @@
       "amount": 156,
       "note": "Ciup+joint",
       "date": "2026-05-17T18:17:55.025Z"
+    },
+    {
+      "id": "mpbghzyt1al",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1332,
+      "note": "De toate",
+      "date": "2026-05-18T17:06:50.069Z"
     }
   ]
 }

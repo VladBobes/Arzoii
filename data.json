@@ -962,6 +962,14 @@
       "amount": 1332,
       "note": "De toate",
       "date": "2026-05-18T17:06:50.069Z"
+    },
+    {
+      "id": "mpbgk161p4x",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 1350,
+      "note": "Vanzari",
+      "date": "2026-05-18T17:08:24.937Z"
     }
   ]
 }

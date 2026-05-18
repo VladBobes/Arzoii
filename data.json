@@ -970,6 +970,14 @@
       "amount": 1350,
       "note": "Vanzari",
       "date": "2026-05-18T17:08:24.937Z"
+    },
+    {
+      "id": "mpbp0yrhgb8",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 440,
+      "note": "Ciuperci",
+      "date": "2026-05-18T21:05:31.901Z"
     }
   ]
 }

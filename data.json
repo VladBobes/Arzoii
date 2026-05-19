@@ -1026,6 +1026,14 @@
       "amount": 1620,
       "note": "Acetona",
       "date": "2026-05-19T09:15:16.084Z"
+    },
+    {
+      "id": "mpd3eaa41n3",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1770,
+      "note": "Ciuperc",
+      "date": "2026-05-19T20:35:34.156Z"
     }
   ]
 }

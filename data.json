@@ -1002,6 +1002,14 @@
       "amount": 40,
       "note": "Plasric",
       "date": "2026-05-19T08:39:02.554Z"
+    },
+    {
+      "id": "mpcek5nebfh",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 40,
+      "note": "Taxa ciup",
+      "date": "2026-05-19T09:00:17.690Z"
     }
   ]
 }

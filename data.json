@@ -978,6 +978,14 @@
       "amount": 440,
       "note": "Ciuperci",
       "date": "2026-05-18T21:05:31.901Z"
+    },
+    {
+      "id": "mpccv50ynmx",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1650,
+      "note": "Acetona",
+      "date": "2026-05-19T08:12:50.866Z"
     }
   ]
 }

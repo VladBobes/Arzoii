@@ -1027,6 +1027,14 @@
       "amount": 1620,
       "note": "Acetona",
       "date": "2026-05-20T09:22:55.894Z"
+    },
+    {
+      "id": "mpduthxef92",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 199,
+      "note": "Plastic",
+      "date": "2026-05-20T09:23:13.538Z"
     }
   ]
 }

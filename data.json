@@ -1003,6 +1003,14 @@
       "amount": 1770,
       "note": "Blue",
       "date": "2026-05-20T09:22:05.491Z"
+    },
+    {
+      "id": "mpdusp13w8n",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 40,
+      "note": "Taxa Ciup",
+      "date": "2026-05-20T09:22:36.087Z"
     }
   ]
 }

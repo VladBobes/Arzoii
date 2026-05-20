@@ -1019,6 +1019,14 @@
       "amount": 40,
       "note": "Taxa Ciup",
       "date": "2026-05-20T09:22:42.921Z"
+    },
+    {
+      "id": "mpdut4ba4r9",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 1620,
+      "note": "Acetona",
+      "date": "2026-05-20T09:22:55.894Z"
     }
   ]
 }

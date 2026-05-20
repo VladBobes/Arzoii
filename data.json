@@ -1035,6 +1035,14 @@
       "amount": 199,
       "note": "Plastic",
       "date": "2026-05-20T09:23:13.538Z"
+    },
+    {
+      "id": "mpdv16oifnq",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 600,
+      "note": "Xenon rosu",
+      "date": "2026-05-20T09:29:12.210Z"
     }
   ]
 }

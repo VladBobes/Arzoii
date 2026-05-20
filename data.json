@@ -972,68 +972,13 @@
       "date": "2026-05-18T17:08:24.937Z"
     },
     {
-      "id": "mpbp0yrhgb8",
-      "type": "group",
-      "payer": "bubelu",
-      "amount": 440,
-      "note": "Ciuperci",
-      "date": "2026-05-18T21:05:31.901Z"
-    },
-    {
-      "id": "mpccv50ynmx",
-      "type": "group",
-      "payer": "bubelu",
-      "amount": 1650,
-      "note": "Acetona",
-      "date": "2026-05-19T08:12:50.866Z"
-    },
-    {
-      "id": "mpcdjkhs66r",
-      "type": "group",
-      "payer": "bobe",
-      "amount": 159,
-      "note": "Plastic",
-      "date": "2026-05-19T08:31:50.656Z"
-    },
-    {
-      "id": "mpcdstqyql9",
-      "type": "group",
-      "payer": "bobe",
-      "amount": 40,
-      "note": "Plasric",
-      "date": "2026-05-19T08:39:02.554Z"
-    },
-    {
-      "id": "mpcek5nebfh",
-      "type": "group",
-      "payer": "bobe",
-      "amount": 40,
-      "note": "Taxa ciup",
-      "date": "2026-05-19T09:00:17.690Z"
-    },
-    {
-      "id": "mpcekdfl2xl",
-      "type": "group",
-      "payer": "bubelu",
-      "amount": 40,
-      "note": "Taxa ciup",
-      "date": "2026-05-19T09:00:27.777Z"
-    },
-    {
-      "id": "mpcf3euszqr",
-      "type": "group",
-      "payer": "bobe",
-      "amount": 1620,
-      "note": "Acetona",
-      "date": "2026-05-19T09:15:16.084Z"
-    },
-    {
-      "id": "mpd3eaa41n3",
-      "type": "group",
-      "payer": "bubelu",
-      "amount": 1770,
-      "note": "Ciuperc",
-      "date": "2026-05-19T20:35:34.156Z"
+      "id": "mpdujjbadoh",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 1000,
+      "note": "Una alta",
+      "date": "2026-05-20T09:15:28.775Z"
     }
   ]
 }

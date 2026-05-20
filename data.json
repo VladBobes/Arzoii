@@ -1043,6 +1043,14 @@
       "amount": 600,
       "note": "Xenon rosu",
       "date": "2026-05-20T09:29:12.210Z"
+    },
+    {
+      "id": "mpepuw6pynr",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 100,
+      "note": "",
+      "date": "2026-05-20T23:52:06.769Z"
     }
   ]
 }

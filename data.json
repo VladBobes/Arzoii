@@ -1011,6 +1011,14 @@
       "amount": 40,
       "note": "Taxa Ciup",
       "date": "2026-05-20T09:22:36.087Z"
+    },
+    {
+      "id": "mpdusuaxexz",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 40,
+      "note": "Taxa Ciup",
+      "date": "2026-05-20T09:22:42.921Z"
     }
   ]
 }

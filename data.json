@@ -995,6 +995,14 @@
       "amount": 1650,
       "note": "Acetona",
       "date": "2026-05-20T09:21:24.292Z"
+    },
+    {
+      "id": "mpdus1f7gdv",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1770,
+      "note": "Blue",
+      "date": "2026-05-20T09:22:05.491Z"
     }
   ]
 }

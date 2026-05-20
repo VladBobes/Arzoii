@@ -979,6 +979,14 @@
       "amount": 1000,
       "note": "Una alta",
       "date": "2026-05-20T09:15:28.775Z"
+    },
+    {
+      "id": "mpduqo11ak1",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 440,
+      "note": "Ciuperci",
+      "date": "2026-05-20T09:21:01.477Z"
     }
   ]
 }

@@ -1051,6 +1051,14 @@
       "amount": 100,
       "note": "",
       "date": "2026-05-20T23:52:06.769Z"
+    },
+    {
+      "id": "mpfitpe73vu",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 472.5,
+      "note": "Joint",
+      "date": "2026-05-21T13:23:00.175Z"
     }
   ]
 }

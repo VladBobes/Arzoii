@@ -1083,6 +1083,14 @@
       "amount": 750,
       "note": "Spalat",
       "date": "2026-05-23T20:20:23.012Z"
+    },
+    {
+      "id": "mpiuv6t85ch",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1222,
+      "note": "Ciup",
+      "date": "2026-05-23T21:23:23.324Z"
     }
   ]
 }

@@ -1075,6 +1075,14 @@
       "amount": 148,
       "note": "Ciuperci",
       "date": "2026-05-21T22:11:32.415Z"
+    },
+    {
+      "id": "mpism5wkaui",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 750,
+      "note": "Spalat",
+      "date": "2026-05-23T20:20:23.012Z"
     }
   ]
 }

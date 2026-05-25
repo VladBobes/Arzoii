@@ -1108,6 +1108,14 @@
       "amount": 1100,
       "note": "Datorie",
       "date": "2026-05-25T06:42:09.516Z"
+    },
+    {
+      "id": "mpkua3s3p5t",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 726,
+      "note": "Acetona",
+      "date": "2026-05-25T06:42:31.971Z"
     }
   ]
 }

@@ -1091,6 +1091,14 @@
       "amount": 1222,
       "note": "Ciup",
       "date": "2026-05-23T21:23:23.324Z"
+    },
+    {
+      "id": "mpku93auzdf",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 2010,
+      "note": "Vanzari",
+      "date": "2026-05-25T06:41:44.694Z"
     }
   ]
 }

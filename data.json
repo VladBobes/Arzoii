@@ -1099,6 +1099,15 @@
       "amount": 2010,
       "note": "Vanzari",
       "date": "2026-05-25T06:41:44.694Z"
+    },
+    {
+      "id": "mpku9mgcjbo",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 1100,
+      "note": "Datorie",
+      "date": "2026-05-25T06:42:09.516Z"
     }
   ]
 }

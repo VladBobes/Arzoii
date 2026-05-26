@@ -1140,6 +1140,14 @@
       "amount": 466,
       "note": "De toate",
       "date": "2026-05-26T13:57:40.354Z"
+    },
+    {
+      "id": "mpmp9rvs23e",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 150,
+      "note": "Ciup",
+      "date": "2026-05-26T13:57:50.824Z"
     }
   ]
 }

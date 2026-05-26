@@ -1164,6 +1164,15 @@
       "amount": 522,
       "note": "Avetona",
       "date": "2026-05-26T13:58:18.617Z"
+    },
+    {
+      "id": "mpmv0x9mz9x",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 2650,
+      "note": "",
+      "date": "2026-05-26T16:38:55.594Z"
     }
   ]
 }

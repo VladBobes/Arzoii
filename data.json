@@ -1181,6 +1181,14 @@
       "amount": 2650,
       "note": "",
       "date": "2026-05-26T16:40:45.755Z"
+    },
+    {
+      "id": "mpmvi9bckgd",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 384,
+      "note": "Ciup",
+      "date": "2026-05-26T16:52:24.360Z"
     }
   ]
 }

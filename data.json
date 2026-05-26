@@ -1172,6 +1172,15 @@
       "amount": 700,
       "note": "",
       "date": "2026-05-26T16:39:06.400Z"
+    },
+    {
+      "id": "mpmv3a9nphm",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "enache",
+      "amount": 2650,
+      "note": "",
+      "date": "2026-05-26T16:40:45.755Z"
     }
   ]
 }

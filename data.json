@@ -1156,6 +1156,14 @@
       "amount": 130,
       "note": "",
       "date": "2026-05-26T13:58:01.289Z"
+    },
+    {
+      "id": "mpmpadbth6w",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 522,
+      "note": "Avetona",
+      "date": "2026-05-26T13:58:18.617Z"
     }
   ]
 }

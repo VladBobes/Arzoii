@@ -1173,6 +1173,14 @@
       "amount": 2650,
       "note": "",
       "date": "2026-05-26T16:38:55.594Z"
+    },
+    {
+      "id": "mpmv15lspy4",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 700,
+      "note": "",
+      "date": "2026-05-26T16:39:06.400Z"
     }
   ]
 }

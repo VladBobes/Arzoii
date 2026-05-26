@@ -1148,6 +1148,14 @@
       "amount": 150,
       "note": "Ciup",
       "date": "2026-05-26T13:57:50.824Z"
+    },
+    {
+      "id": "mpmp9zyhlsd",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 130,
+      "note": "",
+      "date": "2026-05-26T13:58:01.289Z"
     }
   ]
 }

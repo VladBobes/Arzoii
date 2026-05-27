@@ -1197,6 +1197,14 @@
       "amount": 308,
       "note": "Coca",
       "date": "2026-05-27T09:47:37.495Z"
+    },
+    {
+      "id": "mpnw4k5ndl2",
+      "type": "group",
+      "payer": "bobe",
+      "amount": 1946,
+      "note": "Joint",
+      "date": "2026-05-27T09:57:31.019Z"
     }
   ]
 }

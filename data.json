@@ -1205,6 +1205,15 @@
       "amount": 1946,
       "note": "Joint",
       "date": "2026-05-27T09:57:31.019Z"
+    },
+    {
+      "id": "mpnw53hleq4",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 2726,
+      "note": "Joint",
+      "date": "2026-05-27T09:57:56.073Z"
     }
   ]
 }

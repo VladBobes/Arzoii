@@ -1215,6 +1215,14 @@
       "amount": 154,
       "note": "Coca",
       "date": "2026-05-27T10:06:57.309Z"
+    },
+    {
+      "id": "mpo9tfvzhef",
+      "type": "group",
+      "payer": "bubelu",
+      "amount": 1750,
+      "note": "Coca",
+      "date": "2026-05-27T16:20:46.895Z"
     }
   ]
 }

@@ -1223,6 +1223,15 @@
       "amount": 1750,
       "note": "Coca",
       "date": "2026-05-27T16:20:46.895Z"
+    },
+    {
+      "id": "mpoifb5fltc",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 230,
+      "note": "Ciuperci",
+      "date": "2026-05-27T20:21:44.115Z"
     }
   ]
 }

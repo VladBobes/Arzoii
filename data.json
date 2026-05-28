@@ -1295,6 +1295,15 @@
       "amount": 100,
       "note": "Joint",
       "date": "2026-05-28T20:46:40.597Z"
+    },
+    {
+      "id": "mpq07k70ekx",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 46,
+      "note": "Ciuperci",
+      "date": "2026-05-28T21:27:21.853Z"
     }
   ]
 }

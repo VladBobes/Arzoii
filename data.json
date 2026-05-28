@@ -1313,6 +1313,15 @@
       "amount": 246,
       "note": "Ciuperci",
       "date": "2026-05-28T22:17:34.472Z"
+    },
+    {
+      "id": "mpq21zn70hm",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 100,
+      "note": "Plicuri goale",
+      "date": "2026-05-28T22:19:01.171Z"
     }
   ]
 }

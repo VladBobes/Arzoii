@@ -1259,6 +1259,15 @@
       "amount": 482,
       "note": "Ciup",
       "date": "2026-05-28T20:07:21.604Z"
+    },
+    {
+      "id": "mppxe0ijatf",
+      "type": "direct",
+      "from": "bobe",
+      "to": "enache",
+      "amount": 185,
+      "note": "Ciuperci",
+      "date": "2026-05-28T20:08:24.091Z"
     }
   ]
 }

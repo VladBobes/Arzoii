@@ -1322,6 +1322,15 @@
       "amount": 100,
       "note": "Plicuri goale",
       "date": "2026-05-28T22:19:01.171Z"
+    },
+    {
+      "id": "mpq28lmp7k6",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 281,
+      "note": "De toate scandura",
+      "date": "2026-05-28T22:24:09.601Z"
     }
   ]
 }

@@ -1277,6 +1277,15 @@
       "amount": 185,
       "note": "Ciuperci",
       "date": "2026-05-28T20:08:33.372Z"
+    },
+    {
+      "id": "mppxer143i6",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 140,
+      "note": "Ciuperci",
+      "date": "2026-05-28T20:08:58.456Z"
     }
   ]
 }

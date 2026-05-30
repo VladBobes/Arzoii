@@ -1349,6 +1349,15 @@
       "amount": 924.8,
       "note": "Settlement",
       "date": "2026-05-30T22:30:21.480Z"
+    },
+    {
+      "id": "mpsxxm6ne2f",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 247,
+      "note": "Ciuperci",
+      "date": "2026-05-30T22:46:57.167Z"
     }
   ]
 }

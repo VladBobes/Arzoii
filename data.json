@@ -1331,6 +1331,15 @@
       "amount": 281,
       "note": "De toate scandura",
       "date": "2026-05-28T22:24:09.601Z"
+    },
+    {
+      "id": "mpsxc3h0hhb",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 100,
+      "note": "Ciup",
+      "date": "2026-05-30T22:30:13.140Z"
     }
   ]
 }

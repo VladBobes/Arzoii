@@ -1340,6 +1340,15 @@
       "amount": 100,
       "note": "Ciup",
       "date": "2026-05-30T22:30:13.140Z"
+    },
+    {
+      "id": "mpsxc9wo5n5",
+      "type": "direct",
+      "from": "bobe",
+      "to": "enache",
+      "amount": 924.8,
+      "note": "Settlement",
+      "date": "2026-05-30T22:30:21.480Z"
     }
   ]
 }

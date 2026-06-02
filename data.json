@@ -1367,6 +1367,15 @@
       "amount": 40,
       "note": "Ciup",
       "date": "2026-05-31T17:07:15.936Z"
+    },
+    {
+      "id": "mpx1buyukul",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 35,
+      "note": "Ciuperci",
+      "date": "2026-06-02T19:33:05.286Z"
     }
   ]
 }

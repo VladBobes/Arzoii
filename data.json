@@ -1376,6 +1376,15 @@
       "amount": 35,
       "note": "Ciuperci",
       "date": "2026-06-02T19:33:05.286Z"
+    },
+    {
+      "id": "mpx2qcacivg",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 46,
+      "note": "Ciup",
+      "date": "2026-06-02T20:12:20.532Z"
     }
   ]
 }

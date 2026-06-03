@@ -1502,6 +1502,15 @@
       "amount": 550,
       "note": "TauFighter",
       "date": "2026-06-03T19:18:56.145Z"
+    },
+    {
+      "id": "mpygdh2vgh9",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 500,
+      "note": "720",
+      "date": "2026-06-03T19:22:01.015Z"
     }
   ]
 }

@@ -1529,6 +1529,15 @@
       "amount": 8760,
       "note": "Jeska",
       "date": "2026-06-03T19:22:52.336Z"
+    },
+    {
+      "id": "mpyjx19w048",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 5000,
+      "note": "Vanzare 720",
+      "date": "2026-06-03T21:01:12.500Z"
     }
   ]
 }

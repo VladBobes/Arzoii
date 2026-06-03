@@ -1520,6 +1520,15 @@
       "amount": 6500,
       "note": "2x 720",
       "date": "2026-06-03T19:22:14.603Z"
+    },
+    {
+      "id": "mpygekogyc2",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 8760,
+      "note": "Jeska",
+      "date": "2026-06-03T19:22:52.336Z"
     }
   ]
 }

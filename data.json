@@ -1484,6 +1484,15 @@
       "amount": 98,
       "note": "Tig",
       "date": "2026-06-03T17:14:58.837Z"
+    },
+    {
+      "id": "mpyg98g62wv",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 900,
+      "note": "Helion",
+      "date": "2026-06-03T19:18:43.206Z"
     }
   ]
 }

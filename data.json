@@ -1511,6 +1511,15 @@
       "amount": 500,
       "note": "720",
       "date": "2026-06-03T19:22:01.015Z"
+    },
+    {
+      "id": "mpygdrkb7z5",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 6500,
+      "note": "2x 720",
+      "date": "2026-06-03T19:22:14.603Z"
     }
   ]
 }

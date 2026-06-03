@@ -1385,6 +1385,15 @@
       "amount": 46,
       "note": "Ciup",
       "date": "2026-06-02T20:12:20.532Z"
+    },
+    {
+      "id": "mpxx38lci6k",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 725,
+      "note": "Joint",
+      "date": "2026-06-03T10:22:10.752Z"
     }
   ]
 }

@@ -1493,6 +1493,15 @@
       "amount": 900,
       "note": "Helion",
       "date": "2026-06-03T19:18:43.206Z"
+    },
+    {
+      "id": "mpyg9iflye7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 550,
+      "note": "TauFighter",
+      "date": "2026-06-03T19:18:56.145Z"
     }
   ]
 }

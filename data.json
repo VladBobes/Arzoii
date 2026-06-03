@@ -1502,6 +1502,15 @@
       "amount": 550,
       "note": "TauFighter",
       "date": "2026-06-03T19:18:56.145Z"
+    },
+    {
+      "id": "mpygb8f1prw",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 7000,
+      "note": "2x Progen 720",
+      "date": "2026-06-03T19:20:16.477Z"
     }
   ]
 }

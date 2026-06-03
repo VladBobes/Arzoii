@@ -1538,6 +1538,15 @@
       "amount": 5000,
       "note": "Vanzare 720",
       "date": "2026-06-03T21:01:12.500Z"
+    },
+    {
+      "id": "mpynbrfcav6",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1500,
+      "note": "Acetona",
+      "date": "2026-06-03T22:36:38.424Z"
     }
   ]
 }

@@ -1475,6 +1475,15 @@
       "amount": 33,
       "note": "Coup",
       "date": "2026-06-03T14:34:13.645Z"
+    },
+    {
+      "id": "mpybu3rpy9g",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 98,
+      "note": "Tig",
+      "date": "2026-06-03T17:14:58.837Z"
     }
   ]
 }

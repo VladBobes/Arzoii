@@ -1547,6 +1547,15 @@
       "amount": 1500,
       "note": "Acetona",
       "date": "2026-06-03T22:36:38.424Z"
+    },
+    {
+      "id": "mpzs2nlcupo",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 35,
+      "note": "Tig",
+      "date": "2026-06-04T17:37:17.808Z"
     }
   ]
 }

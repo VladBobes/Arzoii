@@ -1583,6 +1583,15 @@
       "amount": 525,
       "note": "Seminte",
       "date": "2026-06-04T20:12:51.720Z"
+    },
+    {
+      "id": "mpzxrqd1utm",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 37,
+      "note": "Coup",
+      "date": "2026-06-04T20:16:45.877Z"
     }
   ]
 }

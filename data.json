@@ -1592,6 +1592,14 @@
       "amount": 37,
       "note": "Coup",
       "date": "2026-06-04T20:16:45.877Z"
+    },
+    {
+      "id": "mpzyh39gjwd",
+      "type": "income",
+      "receiver": "bubelu",
+      "amount": 400,
+      "note": "Gradient",
+      "date": "2026-06-04T20:36:28.996Z"
     }
   ]
 }

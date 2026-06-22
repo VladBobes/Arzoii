@@ -1618,6 +1618,15 @@
       "amount": 1250,
       "note": "Helion",
       "date": "2026-06-22T18:09:24.362Z"
+    },
+    {
+      "id": "mqpj5hef6nk",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 332,
+      "note": "Tigari",
+      "date": "2026-06-22T18:09:33.783Z"
     }
   ]
 }

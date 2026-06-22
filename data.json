@@ -1600,6 +1600,15 @@
       "amount": 400,
       "note": "Gradient",
       "date": "2026-06-04T20:36:28.996Z"
+    },
+    {
+      "id": "mqpj52pctx9",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 4800,
+      "note": "Spalat",
+      "date": "2026-06-22T18:09:14.736Z"
     }
   ]
 }

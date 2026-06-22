@@ -1609,6 +1609,15 @@
       "amount": 4800,
       "note": "Spalat",
       "date": "2026-06-22T18:09:14.736Z"
+    },
+    {
+      "id": "mqpj5a4qpph",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1250,
+      "note": "Helion",
+      "date": "2026-06-22T18:09:24.362Z"
     }
   ]
 }

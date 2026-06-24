@@ -1627,6 +1627,15 @@
       "amount": 332,
       "note": "Tigari",
       "date": "2026-06-22T18:09:33.783Z"
+    },
+    {
+      "id": "mqsfpc2oqpz",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 5500,
+      "note": "Incasat",
+      "date": "2026-06-24T18:56:20.064Z"
     }
   ]
 }

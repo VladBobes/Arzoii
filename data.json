@@ -1636,6 +1636,15 @@
       "amount": 5500,
       "note": "Incasat",
       "date": "2026-06-24T18:56:20.064Z"
+    },
+    {
+      "id": "mqtyna5wwqw",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 20,
+      "note": "Taxa coca",
+      "date": "2026-06-25T20:34:23.156Z"
     }
   ]
 }

@@ -1654,6 +1654,15 @@
       "amount": 65,
       "note": "Tigari plicuri",
       "date": "2026-07-01T18:01:11.535Z"
+    },
+    {
+      "id": "mr2ktzqlf2k",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 185,
+      "note": "Ciuperci",
+      "date": "2026-07-01T21:17:37.197Z"
     }
   ]
 }

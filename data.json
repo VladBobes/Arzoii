@@ -1645,6 +1645,15 @@
       "amount": 20,
       "note": "Taxa coca",
       "date": "2026-06-25T20:34:23.156Z"
+    },
+    {
+      "id": "mr2dtdv36xj",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 65,
+      "note": "Tigari plicuri",
+      "date": "2026-07-01T18:01:11.535Z"
     }
   ]
 }

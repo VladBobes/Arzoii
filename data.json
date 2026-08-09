@@ -1672,6 +1672,15 @@
       "amount": 600,
       "note": "Chirie 1 luna",
       "date": "2026-08-09T21:25:52.438Z"
+    },
+    {
+      "id": "msmbbfinq06",
+      "type": "direct",
+      "from": "enache",
+      "to": "bobe",
+      "amount": 5000,
+      "note": "C.A.R.",
+      "date": "2026-08-09T21:26:20.495Z"
     }
   ]
 }

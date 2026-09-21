@@ -1690,6 +1690,15 @@
       "amount": 250,
       "note": "ciuperci",
       "date": "2026-09-21T15:04:25.220Z"
+    },
+    {
+      "id": "mubdm6npo4b",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 95,
+      "note": "aluminiu",
+      "date": "2026-09-21T15:04:38.197Z"
     }
   ]
 }

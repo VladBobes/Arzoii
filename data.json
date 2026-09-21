@@ -1753,6 +1753,15 @@
       "amount": 750,
       "note": "tarnacoape",
       "date": "2026-09-21T15:05:46.299Z"
+    },
+    {
+      "id": "mubdomvom6m",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 850,
+      "note": "materiale",
+      "date": "2026-09-21T15:06:32.532Z"
     }
   ]
 }

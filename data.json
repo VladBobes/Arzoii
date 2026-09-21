@@ -1665,15 +1665,6 @@
       "date": "2026-07-01T21:17:37.197Z"
     },
     {
-      "id": "msmbatva6a3",
-      "type": "direct",
-      "from": "bubelu",
-      "to": "bobe",
-      "amount": 600,
-      "note": "Chirie 1 luna",
-      "date": "2026-08-09T21:25:52.438Z"
-    },
-    {
       "id": "msmbbfinq06",
       "type": "direct",
       "from": "enache",

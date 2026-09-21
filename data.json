@@ -1672,6 +1672,15 @@
       "amount": 5000,
       "note": "C.A.R.",
       "date": "2026-08-09T21:26:20.495Z"
+    },
+    {
+      "id": "mubdlpucsiw",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1015,
+      "note": "coca",
+      "date": "2026-09-21T15:04:16.404Z"
     }
   ]
 }

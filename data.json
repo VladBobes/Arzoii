@@ -1789,6 +1789,15 @@
       "amount": 250,
       "note": "materiale",
       "date": "2026-09-21T15:07:06.291Z"
+    },
+    {
+      "id": "mubdpjq7vi8",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 700,
+      "note": "blueprinturi",
+      "date": "2026-09-21T15:07:15.103Z"
     }
   ]
 }

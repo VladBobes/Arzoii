@@ -1726,6 +1726,15 @@
       "amount": 110,
       "note": "cupru",
       "date": "2026-09-21T15:05:15.330Z"
+    },
+    {
+      "id": "mubdn3guwnb",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 132,
+      "note": "acetona",
+      "date": "2026-09-21T15:05:20.718Z"
     }
   ]
 }

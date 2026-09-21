@@ -1762,6 +1762,15 @@
       "amount": 850,
       "note": "materiale",
       "date": "2026-09-21T15:06:32.532Z"
+    },
+    {
+      "id": "mubdosxno4o",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 250,
+      "note": "plastic",
+      "date": "2026-09-21T15:06:40.379Z"
     }
   ]
 }

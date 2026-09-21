@@ -1744,6 +1744,15 @@
       "amount": 700,
       "note": "materiale",
       "date": "2026-09-21T15:05:30.233Z"
+    },
+    {
+      "id": "mubdnn7fds9",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 750,
+      "note": "tarnacoape",
+      "date": "2026-09-21T15:05:46.299Z"
     }
   ]
 }

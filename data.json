@@ -1807,6 +1807,15 @@
       "amount": 1750,
       "note": "seminte",
       "date": "2026-09-21T15:07:26.895Z"
+    },
+    {
+      "id": "mubdqkf94w8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 11000,
+      "note": "transfer bancar imprumut nerambursabil",
+      "date": "2026-09-21T15:08:02.661Z"
     }
   ]
 }

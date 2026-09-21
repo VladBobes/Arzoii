@@ -1717,6 +1717,15 @@
       "amount": 416,
       "note": "ciuperci",
       "date": "2026-09-21T15:05:02.617Z"
+    },
+    {
+      "id": "mubdmzb6wt1",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 110,
+      "note": "cupru",
+      "date": "2026-09-21T15:05:15.330Z"
     }
   ]
 }

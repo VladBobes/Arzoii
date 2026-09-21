@@ -1771,6 +1771,15 @@
       "amount": 250,
       "note": "plastic",
       "date": "2026-09-21T15:06:40.379Z"
+    },
+    {
+      "id": "mubdp6epjqk",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 305,
+      "note": "armuri kituri",
+      "date": "2026-09-21T15:06:57.841Z"
     }
   ]
 }

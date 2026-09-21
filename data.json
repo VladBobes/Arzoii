@@ -1735,6 +1735,15 @@
       "amount": 132,
       "note": "acetona",
       "date": "2026-09-21T15:05:20.718Z"
+    },
+    {
+      "id": "mubdnat5lbm",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 700,
+      "note": "materiale",
+      "date": "2026-09-21T15:05:30.233Z"
     }
   ]
 }

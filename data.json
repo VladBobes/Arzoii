@@ -1816,6 +1816,15 @@
       "amount": 11000,
       "note": "transfer bancar imprumut nerambursabil",
       "date": "2026-09-21T15:08:02.661Z"
+    },
+    {
+      "id": "mube1d1krp0",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 7000,
+      "note": "combinatii grele mașini",
+      "date": "2026-09-21T15:16:26.312Z"
     }
   ]
 }

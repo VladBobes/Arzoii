@@ -1780,6 +1780,15 @@
       "amount": 305,
       "note": "armuri kituri",
       "date": "2026-09-21T15:06:57.841Z"
+    },
+    {
+      "id": "mubdpcxfvc6",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 250,
+      "note": "materiale",
+      "date": "2026-09-21T15:07:06.291Z"
     }
   ]
 }

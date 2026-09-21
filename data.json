@@ -1681,6 +1681,15 @@
       "amount": 1015,
       "note": "coca",
       "date": "2026-09-21T15:04:16.404Z"
+    },
+    {
+      "id": "mubdlwn84af",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 250,
+      "note": "ciuperci",
+      "date": "2026-09-21T15:04:25.220Z"
     }
   ]
 }

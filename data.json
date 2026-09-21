@@ -1798,6 +1798,15 @@
       "amount": 700,
       "note": "blueprinturi",
       "date": "2026-09-21T15:07:15.103Z"
+    },
+    {
+      "id": "mubdpstrz3h",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1750,
+      "note": "seminte",
+      "date": "2026-09-21T15:07:26.895Z"
     }
   ]
 }

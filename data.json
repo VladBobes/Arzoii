@@ -1708,6 +1708,15 @@
       "amount": 200,
       "note": "plastic",
       "date": "2026-09-21T15:04:44.770Z"
+    },
+    {
+      "id": "mubdmpi15hz",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 416,
+      "note": "ciuperci",
+      "date": "2026-09-21T15:05:02.617Z"
     }
   ]
 }

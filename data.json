@@ -1834,6 +1834,15 @@
       "amount": 21967.5,
       "note": "Settlement",
       "date": "2026-09-22T13:27:42.553Z"
+    },
+    {
+      "id": "mucpm80o2jk",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 144,
+      "note": "ciuperci plumb sulf",
+      "date": "2026-09-22T13:28:21.528Z"
     }
   ]
 }

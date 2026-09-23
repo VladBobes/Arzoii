@@ -1823,7 +1823,7 @@
       "from": "bubelu",
       "to": "bobe",
       "amount": 7000,
-      "note": "combinatii grele maÈini",
+      "note": "combinatii grele maÃÂini",
       "date": "2026-09-21T15:16:26.312Z"
     },
     {
@@ -1843,6 +1843,15 @@
       "amount": 144,
       "note": "ciuperci plumb sulf",
       "date": "2026-09-22T13:28:21.528Z"
+    },
+    {
+      "id": "mue3brbjes9",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 180,
+      "note": "vandut SH",
+      "date": "2026-09-23T12:39:54.127Z"
     }
   ]
 }

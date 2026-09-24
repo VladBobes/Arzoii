@@ -1823,7 +1823,7 @@
       "from": "bubelu",
       "to": "bobe",
       "amount": 7000,
-      "note": "combinatii grele maÃÂini",
+      "note": "combinatii grele maÃÂÃÂini",
       "date": "2026-09-21T15:16:26.312Z"
     },
     {
@@ -1870,6 +1870,15 @@
       "amount": 450,
       "note": "acetona",
       "date": "2026-09-23T12:40:41.341Z"
+    },
+    {
+      "id": "mufjrltb8tg",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 55,
+      "note": "brichete",
+      "date": "2026-09-24T13:07:53.519Z"
     }
   ]
 }

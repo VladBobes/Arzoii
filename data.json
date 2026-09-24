@@ -1879,6 +1879,15 @@
       "amount": 55,
       "note": "brichete",
       "date": "2026-09-24T13:07:53.519Z"
+    },
+    {
+      "id": "mufjrrxhbbw",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 15,
+      "note": "procesat",
+      "date": "2026-09-24T13:08:01.445Z"
     }
   ]
 }

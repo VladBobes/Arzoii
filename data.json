@@ -1888,6 +1888,15 @@
       "amount": 15,
       "note": "procesat",
       "date": "2026-09-24T13:08:01.445Z"
+    },
+    {
+      "id": "mufjz481lq9",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 50,
+      "note": "apa",
+      "date": "2026-09-24T13:13:43.969Z"
     }
   ]
 }

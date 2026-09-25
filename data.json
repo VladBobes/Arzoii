@@ -1823,7 +1823,7 @@
       "from": "bubelu",
       "to": "bobe",
       "amount": 7000,
-      "note": "combinatii grele maÃÂÃÂÃÂÃÂini",
+      "note": "combinatii grele maÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂini",
       "date": "2026-09-21T15:16:26.312Z"
     },
     {
@@ -1906,6 +1906,15 @@
       "amount": 205,
       "note": "aluminiu",
       "date": "2026-09-25T12:28:25.255Z"
+    },
+    {
+      "id": "mugy1itdbq8",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 65,
+      "note": "plastic",
+      "date": "2026-09-25T12:35:16.993Z"
     }
   ]
 }

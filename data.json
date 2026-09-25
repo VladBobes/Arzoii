@@ -1823,7 +1823,7 @@
       "from": "bubelu",
       "to": "bobe",
       "amount": 7000,
-      "note": "combinatii grele maÃÂÃÂini",
+      "note": "combinatii grele maÃÂÃÂÃÂÃÂini",
       "date": "2026-09-21T15:16:26.312Z"
     },
     {
@@ -1897,6 +1897,15 @@
       "amount": 50,
       "note": "apa",
       "date": "2026-09-24T13:13:43.969Z"
+    },
+    {
+      "id": "mugxsp47axc",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 205,
+      "note": "aluminiu",
+      "date": "2026-09-25T12:28:25.255Z"
     }
   ]
 }

@@ -1823,7 +1823,7 @@
       "from": "bubelu",
       "to": "bobe",
       "amount": 7000,
-      "note": "combinatii grele maÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂini",
+      "note": "combinatii grele maÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂini",
       "date": "2026-09-21T15:16:26.312Z"
     },
     {
@@ -1915,6 +1915,15 @@
       "amount": 65,
       "note": "plastic",
       "date": "2026-09-25T12:35:16.993Z"
+    },
+    {
+      "id": "muiwa3ugntw",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1000,
+      "note": "seminte tabac",
+      "date": "2026-09-26T21:21:30.616Z"
     }
   ]
 }

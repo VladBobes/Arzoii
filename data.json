@@ -1933,6 +1933,15 @@
       "amount": 1100,
       "note": "Tableta si cayo",
       "date": "2026-09-27T21:13:08.279Z"
+    },
+    {
+      "id": "mukbfgsk7wi",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1800,
+      "note": "Tricou LV",
+      "date": "2026-09-27T21:13:21.092Z"
     }
   ]
 }

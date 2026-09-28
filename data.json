@@ -1987,6 +1987,15 @@
       "amount": 373,
       "note": "Ciuperci tigari",
       "date": "2026-09-28T17:10:50.267Z"
+    },
+    {
+      "id": "muligu1vunf",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 17,
+      "note": "Aluminiu",
+      "date": "2026-09-28T17:18:08.419Z"
     }
   ]
 }

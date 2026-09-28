@@ -1960,6 +1960,15 @@
       "amount": 2000,
       "note": "dobanda promisa",
       "date": "2026-09-28T07:25:08.956Z"
+    },
+    {
+      "id": "mulhtzbnbi8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 110,
+      "note": "Tigari",
+      "date": "2026-09-28T17:00:22.163Z"
     }
   ]
 }

@@ -1996,6 +1996,15 @@
       "amount": 17,
       "note": "Aluminiu",
       "date": "2026-09-28T17:18:08.419Z"
+    },
+    {
+      "id": "mulpiye519a",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 31,
+      "note": "Tigari",
+      "date": "2026-09-28T20:35:44.669Z"
     }
   ]
 }

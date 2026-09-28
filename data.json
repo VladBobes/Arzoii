@@ -2005,6 +2005,15 @@
       "amount": 31,
       "note": "Tigari",
       "date": "2026-09-28T20:35:44.669Z"
+    },
+    {
+      "id": "mulr0c75ol1",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 90,
+      "note": "Tigari",
+      "date": "2026-09-28T21:17:15.329Z"
     }
   ]
 }

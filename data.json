@@ -2032,6 +2032,15 @@
       "amount": 1500,
       "note": "Transfer",
       "date": "2026-09-29T21:19:51.691Z"
+    },
+    {
+      "id": "mun7fhb5792",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 327,
+      "note": "Tigari",
+      "date": "2026-09-29T21:44:41.825Z"
     }
   ]
 }

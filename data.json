@@ -2014,6 +2014,15 @@
       "amount": 90,
       "note": "Tigari",
       "date": "2026-09-28T21:17:15.329Z"
+    },
+    {
+      "id": "mun2u2t0mhp",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 247,
+      "note": "Tigari llastic",
+      "date": "2026-09-29T19:36:04.788Z"
     }
   ]
 }

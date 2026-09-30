@@ -2041,6 +2041,15 @@
       "amount": 327,
       "note": "Tigari",
       "date": "2026-09-29T21:44:41.825Z"
+    },
+    {
+      "id": "muomv0ckqg7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 2250,
+      "note": "Bitcoin",
+      "date": "2026-09-30T21:44:26.756Z"
     }
   ]
 }

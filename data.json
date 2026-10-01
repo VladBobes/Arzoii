@@ -2086,6 +2086,15 @@
       "amount": 482,
       "note": "Ciuperci tigari",
       "date": "2026-10-01T21:53:32.482Z"
+    },
+    {
+      "id": "muq35vwoemg",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 525,
+      "note": "Ciuperci",
+      "date": "2026-10-01T22:08:34.248Z"
     }
   ]
 }

@@ -2068,6 +2068,15 @@
       "amount": 34,
       "note": "Plastic",
       "date": "2026-10-01T21:25:24.006Z"
+    },
+    {
+      "id": "muq2dc6uhhn",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 72,
+      "note": "Aluminiu",
+      "date": "2026-10-01T21:46:22.326Z"
     }
   ]
 }

@@ -2077,6 +2077,15 @@
       "amount": 72,
       "note": "Aluminiu",
       "date": "2026-10-01T21:46:22.326Z"
+    },
+    {
+      "id": "muq2mk3mjea",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 482,
+      "note": "Ciuperci tigari",
+      "date": "2026-10-01T21:53:32.482Z"
     }
   ]
 }

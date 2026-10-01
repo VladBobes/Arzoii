@@ -2059,6 +2059,15 @@
       "amount": 15,
       "note": "Taxa joint",
       "date": "2026-10-01T18:48:02.222Z"
+    },
+    {
+      "id": "muq1md9ia71",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 34,
+      "note": "Plastic",
+      "date": "2026-10-01T21:25:24.006Z"
     }
   ]
 }

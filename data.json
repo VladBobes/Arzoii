@@ -2050,6 +2050,15 @@
       "amount": 2250,
       "note": "Bitcoin",
       "date": "2026-09-30T21:44:26.756Z"
+    },
+    {
+      "id": "mupvzzxq8jo",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 15,
+      "note": "Taxa joint",
+      "date": "2026-10-01T18:48:02.222Z"
     }
   ]
 }

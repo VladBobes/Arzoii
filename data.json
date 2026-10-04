@@ -2131,6 +2131,15 @@
       "amount": 60,
       "note": "Plastic",
       "date": "2026-10-04T10:35:11.744Z"
+    },
+    {
+      "id": "mutoqpz0ge8",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 131,
+      "note": "Otel",
+      "date": "2026-10-04T10:35:56.796Z"
     }
   ]
 }

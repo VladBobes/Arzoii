@@ -2113,6 +2113,15 @@
       "amount": 1000,
       "note": "Toti banii",
       "date": "2026-10-04T09:42:30.544Z"
+    },
+    {
+      "id": "mutnl9rv3w7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 61,
+      "note": "Plastic",
+      "date": "2026-10-04T10:03:42.907Z"
     }
   ]
 }

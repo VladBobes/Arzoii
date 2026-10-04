@@ -2140,6 +2140,15 @@
       "amount": 131,
       "note": "Otel",
       "date": "2026-10-04T10:35:56.796Z"
+    },
+    {
+      "id": "mutoy8ja3x4",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 130,
+      "note": "Otel",
+      "date": "2026-10-04T10:41:47.446Z"
     }
   ]
 }

@@ -2158,6 +2158,15 @@
       "amount": 75,
       "note": "Aluminiu",
       "date": "2026-10-04T10:54:55.153Z"
+    },
+    {
+      "id": "muuc98jvmxe",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 110,
+      "note": "Ciuperci",
+      "date": "2026-10-04T21:34:11.851Z"
     }
   ]
 }

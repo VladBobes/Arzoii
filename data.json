@@ -2149,6 +2149,15 @@
       "amount": 130,
       "note": "Otel",
       "date": "2026-10-04T10:41:47.446Z"
+    },
+    {
+      "id": "mutpf4c1nrc",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 75,
+      "note": "Aluminiu",
+      "date": "2026-10-04T10:54:55.153Z"
     }
   ]
 }

@@ -2176,6 +2176,15 @@
       "amount": 339,
       "note": "Ciuperci",
       "date": "2026-10-06T20:28:15.243Z"
+    },
+    {
+      "id": "muxs20kzdu8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 192,
+      "note": "Plastic",
+      "date": "2026-10-07T07:19:47.315Z"
     }
   ]
 }

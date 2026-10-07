@@ -2203,6 +2203,15 @@
       "amount": 88,
       "note": "Plastic",
       "date": "2026-10-07T17:21:04.860Z"
+    },
+    {
+      "id": "muydjg5x4ma",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 120,
+      "note": "Joint",
+      "date": "2026-10-07T17:21:12.597Z"
     }
   ]
 }

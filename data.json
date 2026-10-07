@@ -2194,6 +2194,15 @@
       "amount": 550,
       "note": "Ciuperci",
       "date": "2026-10-07T07:20:02.262Z"
+    },
+    {
+      "id": "muydja70zif",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 88,
+      "note": "Plastic",
+      "date": "2026-10-07T17:21:04.860Z"
     }
   ]
 }

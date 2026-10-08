@@ -2212,6 +2212,15 @@
       "amount": 120,
       "note": "Joint",
       "date": "2026-10-07T17:21:12.597Z"
+    },
+    {
+      "id": "muysav7zkta",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 800,
+      "note": "Bitcoin",
+      "date": "2026-10-08T00:14:26.447Z"
     }
   ]
 }

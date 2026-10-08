@@ -2221,6 +2221,15 @@
       "amount": 800,
       "note": "Bitcoin",
       "date": "2026-10-08T00:14:26.447Z"
+    },
+    {
+      "id": "muzsr36zjl5",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 700,
+      "note": "Ciuperci",
+      "date": "2026-10-08T17:14:49.451Z"
     }
   ]
 }

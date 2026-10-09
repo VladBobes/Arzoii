@@ -2239,6 +2239,15 @@
       "amount": 30,
       "note": "Vama",
       "date": "2026-10-08T17:22:28.390Z"
+    },
+    {
+      "id": "mv13b3i7goc",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 75,
+      "note": "Somin",
+      "date": "2026-10-09T14:58:05.311Z"
     }
   ]
 }

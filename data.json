@@ -2248,6 +2248,15 @@
       "amount": 75,
       "note": "Somin",
       "date": "2026-10-09T14:58:05.311Z"
+    },
+    {
+      "id": "mv2hdddgeci",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 23,
+      "note": "Ciuperci",
+      "date": "2026-10-10T14:19:32.212Z"
     }
   ]
 }

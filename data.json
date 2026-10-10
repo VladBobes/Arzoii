@@ -2275,6 +2275,15 @@
       "amount": 400,
       "note": "Papuci negri",
       "date": "2026-10-10T22:09:11.146Z"
+    },
+    {
+      "id": "mv2zv792dl4",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 495,
+      "note": "Pantaloni ganster",
+      "date": "2026-10-10T22:57:17.174Z"
     }
   ]
 }

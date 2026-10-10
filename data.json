@@ -2257,6 +2257,15 @@
       "amount": 23,
       "note": "Ciuperci",
       "date": "2026-10-10T14:19:32.212Z"
+    },
+    {
+      "id": "mv2xzu1mkn6",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 115,
+      "note": "DB",
+      "date": "2026-10-10T22:04:54.109Z"
     }
   ]
 }

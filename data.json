@@ -2311,6 +2311,15 @@
       "amount": 35,
       "note": "Ciup",
       "date": "2026-10-11T17:15:56.772Z"
+    },
+    {
+      "id": "mv45ftkh5df",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 40,
+      "note": "Helion",
+      "date": "2026-10-11T18:21:03.473Z"
     }
   ]
 }

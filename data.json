@@ -2320,15 +2320,6 @@
       "amount": 40,
       "note": "Helion",
       "date": "2026-10-11T18:21:03.473Z"
-    },
-    {
-      "id": "mv498bwq8ol",
-      "type": "direct",
-      "from": "bubelu",
-      "to": "bobe",
-      "amount": 75,
-      "note": "Kit",
-      "date": "2026-10-11T20:07:12.458Z"
     }
   ]
 }

@@ -2284,6 +2284,15 @@
       "amount": 495,
       "note": "Pantaloni ganster",
       "date": "2026-10-10T22:57:17.174Z"
+    },
+    {
+      "id": "mv3vuzkq2gq",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 100,
+      "note": "A",
+      "date": "2026-10-11T13:52:54.938Z"
     }
   ]
 }

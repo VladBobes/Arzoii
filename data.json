@@ -2302,6 +2302,15 @@
       "amount": 133,
       "note": "Tigari",
       "date": "2026-10-11T13:53:11.439Z"
+    },
+    {
+      "id": "mv434350n5y",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 35,
+      "note": "Ciup",
+      "date": "2026-10-11T17:15:56.772Z"
     }
   ]
 }

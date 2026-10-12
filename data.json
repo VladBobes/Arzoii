@@ -2347,6 +2347,15 @@
       "amount": 875,
       "note": "Seminte",
       "date": "2026-10-12T11:35:43.864Z"
+    },
+    {
+      "id": "mv58vnv99hq",
+      "type": "direct",
+      "from": "bobe",
+      "to": "enache",
+      "amount": 1866.7,
+      "note": "Settlement",
+      "date": "2026-10-12T12:45:07.605Z"
     }
   ]
 }

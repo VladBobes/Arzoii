@@ -2383,6 +2383,15 @@
       "amount": 100,
       "note": "Seminte tabac",
       "date": "2026-10-12T17:23:12.556Z"
+    },
+    {
+      "id": "mv5r7xf7fe8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 750,
+      "note": "Tig",
+      "date": "2026-10-12T21:18:32.948Z"
     }
   ]
 }

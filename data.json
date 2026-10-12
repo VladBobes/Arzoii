@@ -2356,6 +2356,15 @@
       "amount": 1866.7,
       "note": "Settlement",
       "date": "2026-10-12T12:45:07.605Z"
+    },
+    {
+      "id": "mv5isln5wha",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 81,
+      "note": "Ciup",
+      "date": "2026-10-12T17:22:40.913Z"
     }
   ]
 }

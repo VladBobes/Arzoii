@@ -2374,6 +2374,15 @@
       "amount": 2750,
       "note": "Enache",
       "date": "2026-10-12T17:22:53.209Z"
+    },
+    {
+      "id": "mv5ita24ze0",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 100,
+      "note": "Seminte tabac",
+      "date": "2026-10-12T17:23:12.556Z"
     }
   ]
 }

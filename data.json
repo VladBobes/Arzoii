@@ -2329,6 +2329,15 @@
       "amount": 25,
       "note": "Alum",
       "date": "2026-10-12T09:30:44.290Z"
+    },
+    {
+      "id": "mv51y9ondrq",
+      "type": "direct",
+      "from": "bobe",
+      "to": "enache",
+      "amount": 8000,
+      "note": "Datorie",
+      "date": "2026-10-12T09:31:11.879Z"
     }
   ]
 }

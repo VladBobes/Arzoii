@@ -2338,6 +2338,15 @@
       "amount": 8000,
       "note": "Datorie",
       "date": "2026-10-12T09:31:11.879Z"
+    },
+    {
+      "id": "mv56ef3srxz",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 875,
+      "note": "Seminte",
+      "date": "2026-10-12T11:35:43.864Z"
     }
   ]
 }

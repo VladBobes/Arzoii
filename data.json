@@ -2527,6 +2527,15 @@
       "amount": 80,
       "note": "Ciyp",
       "date": "2026-10-15T19:52:35.972Z"
+    },
+    {
+      "id": "mva04s1zvyi",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 228,
+      "note": "Acetona",
+      "date": "2026-10-15T20:39:07.271Z"
     }
   ]
 }

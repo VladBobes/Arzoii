@@ -2455,6 +2455,15 @@
       "amount": 3000,
       "note": "Acetona",
       "date": "2026-10-15T11:33:41.301Z"
+    },
+    {
+      "id": "mv9mwm580qh",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 225,
+      "note": "Seminte dani",
+      "date": "2026-10-15T14:28:51.356Z"
     }
   ]
 }

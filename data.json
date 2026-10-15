@@ -2464,6 +2464,15 @@
       "amount": 225,
       "note": "Seminte dani",
       "date": "2026-10-15T14:28:51.356Z"
+    },
+    {
+      "id": "mv9nsw4b9rq",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 185,
+      "note": "Ciup",
+      "date": "2026-10-15T14:53:57.275Z"
     }
   ]
 }

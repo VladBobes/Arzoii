@@ -2644,6 +2644,15 @@
       "amount": 75,
       "note": "Glsg",
       "date": "2026-10-16T19:25:07.366Z"
+    },
+    {
+      "id": "mvbf17vwtf3",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 97,
+      "note": "Ciup",
+      "date": "2026-10-16T20:24:01.580Z"
     }
   ]
 }

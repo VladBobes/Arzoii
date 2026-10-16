@@ -2626,6 +2626,15 @@
       "amount": 100,
       "note": "Gloante",
       "date": "2026-10-16T18:03:41.056Z"
+    },
+    {
+      "id": "mvbb8p8cxdr",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 250,
+      "note": "Glsh",
+      "date": "2026-10-16T18:37:52.188Z"
     }
   ]
 }

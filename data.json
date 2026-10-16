@@ -2545,6 +2545,15 @@
       "amount": 1000,
       "note": "Milionu",
       "date": "2026-10-16T08:42:07.393Z"
+    },
+    {
+      "id": "mvatxzve9pb",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 100,
+      "note": "Ovi",
+      "date": "2026-10-16T10:33:39.290Z"
     }
   ]
 }

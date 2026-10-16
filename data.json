@@ -2572,6 +2572,15 @@
       "amount": 78,
       "note": "Ciup",
       "date": "2026-10-16T13:02:43.607Z"
+    },
+    {
+      "id": "mvazpiymeby",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 119,
+      "note": "Coup",
+      "date": "2026-10-16T13:15:01.822Z"
     }
   ]
 }

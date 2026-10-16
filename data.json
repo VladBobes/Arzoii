@@ -2653,6 +2653,15 @@
       "amount": 97,
       "note": "Ciup",
       "date": "2026-10-16T20:24:01.580Z"
+    },
+    {
+      "id": "mvbf3hk09wv",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 188,
+      "note": "GlSh",
+      "date": "2026-10-16T20:25:47.424Z"
     }
   ]
 }

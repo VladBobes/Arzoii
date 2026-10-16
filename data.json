@@ -2536,6 +2536,15 @@
       "amount": 228,
       "note": "Acetona",
       "date": "2026-10-15T20:39:07.271Z"
+    },
+    {
+      "id": "mvapykddlix",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1000,
+      "note": "Milionu",
+      "date": "2026-10-16T08:42:07.393Z"
     }
   ]
 }

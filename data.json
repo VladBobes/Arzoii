@@ -2563,6 +2563,15 @@
       "amount": 325,
       "note": "Argati",
       "date": "2026-10-16T11:54:27.885Z"
+    },
+    {
+      "id": "mvaz9pcnh4g",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 78,
+      "note": "Ciup",
+      "date": "2026-10-16T13:02:43.607Z"
     }
   ]
 }

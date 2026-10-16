@@ -2617,6 +2617,15 @@
       "amount": 207,
       "note": "Arme",
       "date": "2026-10-16T17:46:33.996Z"
+    },
+    {
+      "id": "mvba0qkg49h",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 100,
+      "note": "Gloante",
+      "date": "2026-10-16T18:03:41.056Z"
     }
   ]
 }

@@ -2590,6 +2590,15 @@
       "amount": 212,
       "note": "Tig",
       "date": "2026-10-16T14:34:50.554Z"
+    },
+    {
+      "id": "mvb2khej8m0",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 290,
+      "note": "Ciup",
+      "date": "2026-10-16T14:35:05.371Z"
     }
   ]
 }

@@ -2698,6 +2698,15 @@
       "amount": 900,
       "note": "Arme",
       "date": "2026-10-17T10:17:07.295Z"
+    },
+    {
+      "id": "mvcdbh70y4a",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 135,
+      "note": "Ciup",
+      "date": "2026-10-17T12:23:47.148Z"
     }
   ]
 }

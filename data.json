@@ -2752,6 +2752,15 @@
       "amount": 225,
       "note": "Sh",
       "date": "2026-10-17T21:51:23.437Z"
+    },
+    {
+      "id": "mvcxlw3uf0u",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 368,
+      "note": "Sh",
+      "date": "2026-10-17T21:51:45.354Z"
     }
   ]
 }

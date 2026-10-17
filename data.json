@@ -2716,6 +2716,15 @@
       "amount": 50,
       "note": "Ciup",
       "date": "2026-10-17T12:23:56.827Z"
+    },
+    {
+      "id": "mvcezzspk2e",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 550,
+      "note": "Ciup",
+      "date": "2026-10-17T13:10:50.617Z"
     }
   ]
 }

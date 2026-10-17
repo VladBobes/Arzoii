@@ -2689,6 +2689,15 @@
       "amount": 330,
       "note": "Acetona taxe",
       "date": "2026-10-17T09:37:45.693Z"
+    },
+    {
+      "id": "mvc8sl3z5c2",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 900,
+      "note": "Arme",
+      "date": "2026-10-17T10:17:07.295Z"
     }
   ]
 }

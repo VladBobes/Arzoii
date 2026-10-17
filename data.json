@@ -2680,6 +2680,15 @@
       "amount": 427,
       "note": "Ciupercoase",
       "date": "2026-10-17T08:34:35.954Z"
+    },
+    {
+      "id": "mvc7dyvxgpp",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 330,
+      "note": "Acetona taxe",
+      "date": "2026-10-17T09:37:45.693Z"
     }
   ]
 }

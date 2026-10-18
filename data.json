@@ -2824,6 +2824,15 @@
       "amount": 192,
       "note": "Ciup",
       "date": "2026-10-18T10:52:26.128Z"
+    },
+    {
+      "id": "mvdpnz04tcr",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 324,
+      "note": "Acet",
+      "date": "2026-10-18T10:57:11.668Z"
     }
   ]
 }

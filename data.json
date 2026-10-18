@@ -2779,6 +2779,15 @@
       "amount": 41,
       "note": "Ciup",
       "date": "2026-10-18T09:49:07.086Z"
+    },
+    {
+      "id": "mvdnfzwzkk8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 100,
+      "note": "SH Gl",
+      "date": "2026-10-18T09:55:00.372Z"
     }
   ]
 }

@@ -3004,6 +3004,15 @@
       "amount": 130,
       "note": "Plastic",
       "date": "2026-10-18T19:50:33.301Z"
+    },
+    {
+      "id": "mve8qyck9bd",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 307,
+      "note": "Plastic",
+      "date": "2026-10-18T19:51:23.492Z"
     }
   ]
 }

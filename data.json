@@ -2797,6 +2797,15 @@
       "amount": 369,
       "note": "Acetona",
       "date": "2026-10-18T10:00:19.632Z"
+    },
+    {
+      "id": "mvdnna1abc6",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 381,
+      "note": "Acetona",
+      "date": "2026-10-18T10:00:40.078Z"
     }
   ]
 }

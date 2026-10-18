@@ -2842,6 +2842,15 @@
       "amount": 80,
       "note": "Carti",
       "date": "2026-10-18T11:42:24.858Z"
+    },
+    {
+      "id": "mvdrlx4qj4n",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 128,
+      "note": "Ciup",
+      "date": "2026-10-18T11:51:35.163Z"
     }
   ]
 }

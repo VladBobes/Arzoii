@@ -2995,6 +2995,15 @@
       "amount": 160,
       "note": "Tigari",
       "date": "2026-10-18T19:24:05.295Z"
+    },
+    {
+      "id": "mve8pvmdfg1",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 130,
+      "note": "Plastic",
+      "date": "2026-10-18T19:50:33.301Z"
     }
   ]
 }

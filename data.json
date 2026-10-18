@@ -2860,6 +2860,15 @@
       "amount": 70,
       "note": "I",
       "date": "2026-10-18T13:14:11.251Z"
+    },
+    {
+      "id": "mvdukdtn59k",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 87,
+      "note": "Acetona",
+      "date": "2026-10-18T13:14:22.331Z"
     }
   ]
 }

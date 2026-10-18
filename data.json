@@ -2869,6 +2869,15 @@
       "amount": 87,
       "note": "Acetona",
       "date": "2026-10-18T13:14:22.331Z"
+    },
+    {
+      "id": "mvdvbs9dph7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 45,
+      "note": "Ciup",
+      "date": "2026-10-18T13:35:40.753Z"
     }
   ]
 }

@@ -2788,6 +2788,15 @@
       "amount": 100,
       "note": "SH Gl",
       "date": "2026-10-18T09:55:00.372Z"
+    },
+    {
+      "id": "mvdnmu9cx4o",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 369,
+      "note": "Acetona",
+      "date": "2026-10-18T10:00:19.632Z"
     }
   ]
 }

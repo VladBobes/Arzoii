@@ -2833,6 +2833,15 @@
       "amount": 324,
       "note": "Acet",
       "date": "2026-10-18T10:57:11.668Z"
+    },
+    {
+      "id": "mvdra4iiggn",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 80,
+      "note": "Carti",
+      "date": "2026-10-18T11:42:24.858Z"
     }
   ]
 }

@@ -3094,6 +3094,15 @@
       "amount": 7,
       "note": "Scrp",
       "date": "2026-10-19T18:52:20.607Z"
+    },
+    {
+      "id": "mvfmf500amq",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 35,
+      "note": "ScrapArc",
+      "date": "2026-10-19T19:01:53.040Z"
     }
   ]
 }

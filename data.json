@@ -3085,6 +3085,15 @@
       "amount": 453,
       "note": "CupAl",
       "date": "2026-10-19T18:47:36.879Z"
+    },
+    {
+      "id": "mvfm2vb3t92",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 7,
+      "note": "Scrp",
+      "date": "2026-10-19T18:52:20.607Z"
     }
   ]
 }

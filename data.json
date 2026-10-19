@@ -3121,6 +3121,15 @@
       "amount": 91,
       "note": "Coup",
       "date": "2026-10-19T19:38:46.455Z"
+    },
+    {
+      "id": "mvfnr31qssj",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 87,
+      "note": "Mine",
+      "date": "2026-10-19T19:39:09.998Z"
     }
   ]
 }

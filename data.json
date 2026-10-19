@@ -3103,6 +3103,15 @@
       "amount": 35,
       "note": "ScrapArc",
       "date": "2026-10-19T19:01:53.040Z"
+    },
+    {
+      "id": "mvfn28ftr02",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 60,
+      "note": "Gloante",
+      "date": "2026-10-19T19:19:50.585Z"
     }
   ]
 }

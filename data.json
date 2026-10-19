@@ -3130,6 +3130,15 @@
       "amount": 87,
       "note": "Mine",
       "date": "2026-10-19T19:39:09.998Z"
+    },
+    {
+      "id": "mvfnx7x5oo8",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 175,
+      "note": "Plas",
+      "date": "2026-10-19T19:43:56.249Z"
     }
   ]
 }

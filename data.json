@@ -3031,6 +3031,15 @@
       "amount": 750,
       "note": "Arme",
       "date": "2026-10-19T08:35:47.733Z"
+    },
+    {
+      "id": "mvf1rw0gcsx",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1350,
+      "note": "BPs",
+      "date": "2026-10-19T09:23:55.984Z"
     }
   ]
 }

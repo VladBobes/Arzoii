@@ -3076,6 +3076,15 @@
       "amount": 6355,
       "note": "Settlement",
       "date": "2026-10-19T10:13:49.607Z"
+    },
+    {
+      "id": "mvflwsdrqg4",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 453,
+      "note": "CupAl",
+      "date": "2026-10-19T18:47:36.879Z"
     }
   ]
 }

@@ -3040,6 +3040,15 @@
       "amount": 1350,
       "note": "BPs",
       "date": "2026-10-19T09:23:55.984Z"
+    },
+    {
+      "id": "mvf1u2taquy",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1021,
+      "note": "Plicuri",
+      "date": "2026-10-19T09:25:38.110Z"
     }
   ]
 }

@@ -3148,6 +3148,15 @@
       "amount": 21,
       "note": "Alum",
       "date": "2026-10-19T20:03:21.290Z"
+    },
+    {
+      "id": "mvfqej1edin",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 235,
+      "note": "",
+      "date": "2026-10-19T20:53:23.042Z"
     }
   ]
 }

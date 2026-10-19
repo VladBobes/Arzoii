@@ -3067,6 +3067,15 @@
       "amount": 2000,
       "note": "Seminte",
       "date": "2026-10-19T10:00:58.700Z"
+    },
+    {
+      "id": "mvf3k1wnqd6",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 6355,
+      "note": "Settlement",
+      "date": "2026-10-19T10:13:49.607Z"
     }
   ]
 }

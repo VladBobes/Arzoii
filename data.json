@@ -3112,6 +3112,15 @@
       "amount": 60,
       "note": "Gloante",
       "date": "2026-10-19T19:19:50.585Z"
+    },
+    {
+      "id": "mvfnqkvr8fz",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 91,
+      "note": "Coup",
+      "date": "2026-10-19T19:38:46.455Z"
     }
   ]
 }

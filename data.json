@@ -3058,6 +3058,15 @@
       "amount": 1000,
       "note": "Materiale acetona",
       "date": "2026-10-19T09:54:10.063Z"
+    },
+    {
+      "id": "mvf33j2k9ge",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 2000,
+      "note": "Seminte",
+      "date": "2026-10-19T10:00:58.700Z"
     }
   ]
 }

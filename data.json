@@ -3049,6 +3049,15 @@
       "amount": 1021,
       "note": "Plicuri",
       "date": "2026-10-19T09:25:38.110Z"
+    },
+    {
+      "id": "mvf2urrjbfs",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1000,
+      "note": "Materiale acetona",
+      "date": "2026-10-19T09:54:10.063Z"
     }
   ]
 }

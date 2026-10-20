@@ -3247,6 +3247,15 @@
       "amount": 20,
       "note": "Brichete",
       "date": "2026-10-20T12:28:42.133Z"
+    },
+    {
+      "id": "mvgonkrghui",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 116,
+      "note": "Ciup",
+      "date": "2026-10-20T12:52:12.124Z"
     }
   ]
 }

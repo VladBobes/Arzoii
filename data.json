@@ -3319,6 +3319,15 @@
       "amount": 23,
       "note": "Ciup",
       "date": "2026-10-20T19:12:13.696Z"
+    },
+    {
+      "id": "mvh33fturge",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 140,
+      "note": "",
+      "date": "2026-10-20T19:36:26.851Z"
     }
   ]
 }

@@ -3211,6 +3211,15 @@
       "amount": 35,
       "note": "Carte",
       "date": "2026-10-20T10:11:53.378Z"
+    },
+    {
+      "id": "mvgjb8ci3gg",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 78,
+      "note": "Ciup",
+      "date": "2026-10-20T10:22:38.082Z"
     }
   ]
 }

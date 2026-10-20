@@ -3202,6 +3202,15 @@
       "amount": 81,
       "note": "Plas",
       "date": "2026-10-20T08:52:52.923Z"
+    },
+    {
+      "id": "mvgixew2k3q",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 35,
+      "note": "Carte",
+      "date": "2026-10-20T10:11:53.378Z"
     }
   ]
 }

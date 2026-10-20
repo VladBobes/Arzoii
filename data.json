@@ -3193,6 +3193,15 @@
       "amount": 61,
       "note": "Scrap",
       "date": "2026-10-20T07:06:19.803Z"
+    },
+    {
+      "id": "mvgg3t4rb2n",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 81,
+      "note": "Plas",
+      "date": "2026-10-20T08:52:52.923Z"
     }
   ]
 }

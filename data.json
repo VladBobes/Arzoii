@@ -3283,6 +3283,15 @@
       "amount": 350,
       "note": "Ciup",
       "date": "2026-10-20T13:31:34.898Z"
+    },
+    {
+      "id": "mvguoj8vog3",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 99,
+      "note": "Ton",
+      "date": "2026-10-20T15:40:54.511Z"
     }
   ]
 }

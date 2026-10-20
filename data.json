@@ -3292,6 +3292,15 @@
       "amount": 99,
       "note": "Ton",
       "date": "2026-10-20T15:40:54.511Z"
+    },
+    {
+      "id": "mvh0zykc84w",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 272,
+      "note": "Ciup",
+      "date": "2026-10-20T18:37:45.276Z"
     }
   ]
 }

@@ -3265,6 +3265,15 @@
       "amount": 80,
       "note": "Ciup",
       "date": "2026-10-20T13:05:14.963Z"
+    },
+    {
+      "id": "mvgp9cicno1",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 91,
+      "note": "Ciup",
+      "date": "2026-10-20T13:09:07.860Z"
     }
   ]
 }

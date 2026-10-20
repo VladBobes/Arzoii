@@ -3229,6 +3229,15 @@
       "amount": 445,
       "note": "Otel",
       "date": "2026-10-20T10:47:55.130Z"
+    },
+    {
+      "id": "mvglmg54bvf",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 225,
+      "note": "Materiale",
+      "date": "2026-10-20T11:27:20.632Z"
     }
   ]
 }

@@ -3238,6 +3238,15 @@
       "amount": 225,
       "note": "Materiale",
       "date": "2026-10-20T11:27:20.632Z"
+    },
+    {
+      "id": "mvgntct1j5u",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 20,
+      "note": "Brichete",
+      "date": "2026-10-20T12:28:42.133Z"
     }
   ]
 }

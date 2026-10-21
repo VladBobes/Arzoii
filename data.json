@@ -3436,6 +3436,15 @@
       "amount": 105,
       "note": "",
       "date": "2026-10-21T19:04:47.623Z"
+    },
+    {
+      "id": "mvilgb5domn",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1905,
+      "note": "Settlement",
+      "date": "2026-10-21T20:58:06.577Z"
     }
   ]
 }

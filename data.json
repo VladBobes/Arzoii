@@ -3382,6 +3382,15 @@
       "amount": 157,
       "note": "",
       "date": "2026-10-21T16:46:39.296Z"
+    },
+    {
+      "id": "mvicjd5onho",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 285,
+      "note": "",
+      "date": "2026-10-21T16:48:32.604Z"
     }
   ]
 }

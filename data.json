@@ -3472,6 +3472,15 @@
       "amount": 26,
       "note": "",
       "date": "2026-10-22T09:43:57.456Z"
+    },
+    {
+      "id": "mvjctmlsp4o",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 800,
+      "note": "",
+      "date": "2026-10-22T09:44:17.584Z"
     }
   ]
 }

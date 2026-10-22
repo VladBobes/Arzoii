@@ -3454,6 +3454,15 @@
       "amount": 750,
       "note": "Acetona",
       "date": "2026-10-22T07:24:50.258Z"
+    },
+    {
+      "id": "mvj9z8r4a2n",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 215,
+      "note": "",
+      "date": "2026-10-22T08:24:40.720Z"
     }
   ]
 }

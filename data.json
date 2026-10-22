@@ -3517,6 +3517,15 @@
       "amount": 280,
       "note": "",
       "date": "2026-10-22T11:38:47.339Z"
+    },
+    {
+      "id": "mvjubkcrxup",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 140,
+      "note": "",
+      "date": "2026-10-22T17:54:07.947Z"
     }
   ]
 }

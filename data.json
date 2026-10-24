@@ -3643,6 +3643,15 @@
       "amount": 62,
       "note": "",
       "date": "2026-10-24T11:14:55.067Z"
+    },
+    {
+      "id": "mvmazn96rzr",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 1800,
+      "note": "",
+      "date": "2026-10-24T11:16:17.658Z"
     }
   ]
 }

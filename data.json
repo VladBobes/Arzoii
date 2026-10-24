@@ -3733,6 +3733,15 @@
       "amount": 640,
       "note": "",
       "date": "2026-10-24T20:16:14.838Z"
+    },
+    {
+      "id": "mvmuactdit0",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 163,
+      "note": "",
+      "date": "2026-10-24T20:16:30.049Z"
     }
   ]
 }

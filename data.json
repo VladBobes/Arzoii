@@ -3742,6 +3742,15 @@
       "amount": 163,
       "note": "",
       "date": "2026-10-24T20:16:30.049Z"
+    },
+    {
+      "id": "mvnm3mu2s62",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 83,
+      "note": "",
+      "date": "2026-10-25T09:15:05.690Z"
     }
   ]
 }

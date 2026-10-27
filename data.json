@@ -3841,6 +3841,15 @@
       "amount": 18,
       "note": "",
       "date": "2026-10-27T18:29:17.742Z"
+    },
+    {
+      "id": "mvr48pxxgbf",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 2000,
+      "note": "",
+      "date": "2026-10-27T20:06:14.613Z"
     }
   ]
 }

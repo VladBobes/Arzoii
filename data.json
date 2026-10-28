@@ -3868,6 +3868,15 @@
       "amount": 15,
       "note": "",
       "date": "2026-10-28T15:33:36.196Z"
+    },
+    {
+      "id": "mvsa4kjpguy",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 12,
+      "note": "",
+      "date": "2026-10-28T15:38:44.869Z"
     }
   ]
 }

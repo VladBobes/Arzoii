@@ -3904,6 +3904,15 @@
       "amount": 50,
       "note": "",
       "date": "2026-10-28T17:14:47.454Z"
+    },
+    {
+      "id": "mvtbpk4txic",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 25,
+      "note": "",
+      "date": "2026-10-29T09:10:49.901Z"
     }
   ]
 }

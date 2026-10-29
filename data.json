@@ -3940,6 +3940,15 @@
       "amount": 3000,
       "note": "",
       "date": "2026-10-29T13:53:32.570Z"
+    },
+    {
+      "id": "mvtosfll2wh",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 20,
+      "note": "",
+      "date": "2026-10-29T15:16:59.001Z"
     }
   ]
 }

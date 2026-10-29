@@ -3922,6 +3922,15 @@
       "amount": 4000,
       "note": "",
       "date": "2026-10-29T09:23:54.237Z"
+    },
+    {
+      "id": "mvtc6v0n2sv",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 243,
+      "note": "",
+      "date": "2026-10-29T09:24:17.159Z"
     }
   ]
 }

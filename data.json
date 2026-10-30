@@ -3967,6 +3967,15 @@
       "amount": 30,
       "note": "",
       "date": "2026-10-30T08:54:57.688Z"
+    },
+    {
+      "id": "mvursuxfb3o",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 800,
+      "note": "",
+      "date": "2026-10-30T09:29:03.891Z"
     }
   ]
 }

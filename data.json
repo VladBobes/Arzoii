@@ -3985,15 +3985,6 @@
       "amount": 10853,
       "note": "",
       "date": "2026-10-30T15:06:00.897Z"
-    },
-    {
-      "id": "mvw4o4xz483",
-      "type": "direct",
-      "from": "bubelu",
-      "to": "bobe",
-      "amount": 28028,
-      "note": "",
-      "date": "2026-10-31T08:17:04.775Z"
     }
   ]
 }

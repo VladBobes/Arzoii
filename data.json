@@ -4030,6 +4030,15 @@
       "amount": 200,
       "note": "Brichete",
       "date": "2026-11-04T11:53:28.687Z"
+    },
+    {
+      "id": "mw24o6ek6d7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 76.35,
+      "note": "",
+      "date": "2026-11-04T13:03:43.725Z"
     }
   ]
 }

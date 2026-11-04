@@ -4003,6 +4003,15 @@
       "amount": 9172,
       "note": "Settlement",
       "date": "2026-11-04T11:52:12.381Z"
+    },
+    {
+      "id": "mw224re42eb",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 313.5,
+      "note": "Seminte canabis",
+      "date": "2026-11-04T11:52:38.573Z"
     }
   ]
 }

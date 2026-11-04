@@ -3994,6 +3994,15 @@
       "amount": 28028,
       "note": "",
       "date": "2026-10-31T08:17:30.168Z"
+    },
+    {
+      "id": "mw22476ln8g",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 9172,
+      "note": "Settlement",
+      "date": "2026-11-04T11:52:12.381Z"
     }
   ]
 }

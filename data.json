@@ -4012,6 +4012,15 @@
       "amount": 313.5,
       "note": "Seminte canabis",
       "date": "2026-11-04T11:52:38.573Z"
+    },
+    {
+      "id": "mw225pvvkh8",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 37.5,
+      "note": "Apa",
+      "date": "2026-11-04T11:53:23.275Z"
     }
   ]
 }

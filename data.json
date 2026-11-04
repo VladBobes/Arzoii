@@ -4021,6 +4021,15 @@
       "amount": 37.5,
       "note": "Apa",
       "date": "2026-11-04T11:53:23.275Z"
+    },
+    {
+      "id": "mw225u27ke9",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 200,
+      "note": "Brichete",
+      "date": "2026-11-04T11:53:28.687Z"
     }
   ]
 }

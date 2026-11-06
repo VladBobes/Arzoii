@@ -4120,6 +4120,15 @@
       "amount": 280,
       "note": "",
       "date": "2026-11-05T17:18:25.101Z"
+    },
+    {
+      "id": "mw55nt5sezb",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 448,
+      "note": "",
+      "date": "2026-11-06T15:54:44.704Z"
     }
   ]
 }

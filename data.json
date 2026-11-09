@@ -4291,6 +4291,15 @@
       "amount": 48,
       "note": "",
       "date": "2026-11-09T17:16:08.696Z"
+    },
+    {
+      "id": "mw9ixhub82u",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 150,
+      "note": "Taxe",
+      "date": "2026-11-09T17:17:16.307Z"
     }
   ]
 }

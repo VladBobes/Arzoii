@@ -4336,6 +4336,15 @@
       "amount": 100,
       "note": "",
       "date": "2026-11-10T13:40:29.403Z"
+    },
+    {
+      "id": "mwawvs0j1sp",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 2000,
+      "note": "",
+      "date": "2026-11-10T16:35:36.979Z"
     }
   ]
 }

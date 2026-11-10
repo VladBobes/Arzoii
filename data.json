@@ -4318,6 +4318,15 @@
       "amount": 60,
       "note": "",
       "date": "2026-11-09T18:37:44.743Z"
+    },
+    {
+      "id": "mwaq7me89qn",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 75,
+      "note": "",
+      "date": "2026-11-10T13:28:52.256Z"
     }
   ]
 }

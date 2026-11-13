@@ -4435,6 +4435,15 @@
       "amount": 444,
       "note": "",
       "date": "2026-11-13T10:04:50.665Z"
+    },
+    {
+      "id": "mwet8wh2wav",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 2000,
+      "note": "",
+      "date": "2026-11-13T10:04:55.526Z"
     }
   ]
 }

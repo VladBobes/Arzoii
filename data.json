@@ -4444,6 +4444,15 @@
       "amount": 2000,
       "note": "",
       "date": "2026-11-13T10:04:55.526Z"
+    },
+    {
+      "id": "mweubku3det",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 175,
+      "note": "",
+      "date": "2026-11-13T10:35:00.027Z"
     }
   ]
 }

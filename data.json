@@ -4471,6 +4471,15 @@
       "amount": 60,
       "note": "",
       "date": "2026-11-14T14:13:57.559Z"
+    },
+    {
+      "id": "mwgid8aoztl",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 494,
+      "note": "",
+      "date": "2026-11-14T14:35:54.048Z"
     }
   ]
 }

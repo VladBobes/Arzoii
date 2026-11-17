@@ -4516,6 +4516,15 @@
       "amount": 18824,
       "note": "Settlement",
       "date": "2026-11-15T20:55:26.433Z"
+    },
+    {
+      "id": "mwl6rvs03ft",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 256,
+      "note": "Otel",
+      "date": "2026-11-17T21:10:13.152Z"
     }
   ]
 }

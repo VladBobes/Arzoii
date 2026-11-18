@@ -4534,6 +4534,15 @@
       "amount": 224,
       "note": "Apa",
       "date": "2026-11-18T13:23:42.464Z"
+    },
+    {
+      "id": "mwm5lcxo5o2",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 750,
+      "note": "Plicuri",
+      "date": "2026-11-18T13:24:55.356Z"
     }
   ]
 }

@@ -4543,6 +4543,15 @@
       "amount": 750,
       "note": "Plicuri",
       "date": "2026-11-18T13:24:55.356Z"
+    },
+    {
+      "id": "mwno3lgzwp2",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 290,
+      "note": "Carbuni",
+      "date": "2026-11-19T14:50:45.491Z"
     }
   ]
 }

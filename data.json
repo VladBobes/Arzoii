@@ -4552,6 +4552,15 @@
       "amount": 290,
       "note": "Carbuni",
       "date": "2026-11-19T14:50:45.491Z"
+    },
+    {
+      "id": "mwno5oo5q8r",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 80,
+      "note": "Carbuni",
+      "date": "2026-11-19T14:52:22.949Z"
     }
   ]
 }

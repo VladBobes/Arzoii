@@ -4570,6 +4570,15 @@
       "amount": 1600,
       "note": "Settlement",
       "date": "2026-11-19T17:22:38.377Z"
+    },
+    {
+      "id": "mwoojck0czy",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 375,
+      "note": "Ape brichete plicuri",
+      "date": "2026-11-20T07:50:46.608Z"
     }
   ]
 }

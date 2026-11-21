@@ -4579,6 +4579,15 @@
       "amount": 375,
       "note": "Ape brichete plicuri",
       "date": "2026-11-20T07:50:46.608Z"
+    },
+    {
+      "id": "mwqbd8sbto2",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 300,
+      "note": "Carbuni",
+      "date": "2026-11-21T11:17:39.131Z"
     }
   ]
 }

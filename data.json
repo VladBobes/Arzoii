@@ -4588,6 +4588,15 @@
       "amount": 300,
       "note": "Carbuni",
       "date": "2026-11-21T11:17:39.131Z"
+    },
+    {
+      "id": "mwt0xvthm30",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1275,
+      "note": "300 plastic 1500 ape/brichete",
+      "date": "2026-11-23T08:49:04.853Z"
     }
   ]
 }

@@ -4597,6 +4597,15 @@
       "amount": 1275,
       "note": "300 plastic 1500 ape/brichete",
       "date": "2026-11-23T08:49:04.853Z"
+    },
+    {
+      "id": "mwtns4kszk4",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 120,
+      "note": "Taxe",
+      "date": "2026-11-23T19:28:27.436Z"
     }
   ]
 }

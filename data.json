@@ -4606,6 +4606,15 @@
       "amount": 120,
       "note": "Taxe",
       "date": "2026-11-23T19:28:27.436Z"
+    },
+    {
+      "id": "mwuhziq7e70",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 150,
+      "note": "Apa",
+      "date": "2026-11-24T09:34:00.847Z"
     }
   ]
 }

@@ -4633,6 +4633,15 @@
       "amount": 2000,
       "note": "Seminte",
       "date": "2026-11-24T18:48:20.658Z"
+    },
+    {
+      "id": "mwvw0ydvjkz",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 472.5,
+      "note": "Plastic",
+      "date": "2026-11-25T08:54:48.595Z"
     }
   ]
 }

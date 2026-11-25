@@ -4642,6 +4642,15 @@
       "amount": 472.5,
       "note": "Plastic",
       "date": "2026-11-25T08:54:48.595Z"
+    },
+    {
+      "id": "mwwej0twdjx",
+      "type": "direct",
+      "from": "bubelu",
+      "to": "bobe",
+      "amount": 2400,
+      "note": "",
+      "date": "2026-11-25T17:32:44.663Z"
     }
   ]
 }

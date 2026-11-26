@@ -4651,6 +4651,15 @@
       "amount": 2400,
       "note": "",
       "date": "2026-11-25T17:32:44.663Z"
+    },
+    {
+      "id": "mwxaggs1tc7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 663,
+      "note": "Acetona plicuri",
+      "date": "2026-11-26T08:26:33.073Z"
     }
   ]
 }

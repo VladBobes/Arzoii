@@ -4687,6 +4687,15 @@
       "amount": 474,
       "note": "Acetona",
       "date": "2026-11-27T16:14:55.258Z"
+    },
+    {
+      "id": "mwz6n7jq6yp",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 65,
+      "note": "Plastic",
+      "date": "2026-11-27T16:15:21.590Z"
     }
   ]
 }

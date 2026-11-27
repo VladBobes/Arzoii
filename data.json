@@ -4669,6 +4669,15 @@
       "amount": 1200,
       "note": "Acetona frateli sicilia",
       "date": "2026-11-27T11:44:27.684Z"
+    },
+    {
+      "id": "mwz6mifyzn2",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 600,
+      "note": "Cuperci",
+      "date": "2026-11-27T16:14:49.054Z"
     }
   ]
 }

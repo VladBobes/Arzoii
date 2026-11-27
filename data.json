@@ -4660,6 +4660,15 @@
       "amount": 663,
       "note": "Acetona plicuri",
       "date": "2026-11-26T08:26:33.073Z"
+    },
+    {
+      "id": "mwywytyc2g0",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 1200,
+      "note": "Acetona frateli sicilia",
+      "date": "2026-11-27T11:44:27.684Z"
     }
   ]
 }

@@ -4678,6 +4678,15 @@
       "amount": 600,
       "note": "Cuperci",
       "date": "2026-11-27T16:14:49.054Z"
+    },
+    {
+      "id": "mwz6mn8adp7",
+      "type": "direct",
+      "from": "bobe",
+      "to": "bubelu",
+      "amount": 474,
+      "note": "Acetona",
+      "date": "2026-11-27T16:14:55.258Z"
     }
   ]
 }
